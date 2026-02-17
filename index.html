@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verónica Iriarte | Artista plástica</title>
+    <meta
+      name="description"
+      content="Galería de obras de Verónica Iriarte, artista plástica."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-brand">
+        <h1>Verónica Iriarte</h1>
+        <p>Artista plástica</p>
+      </div>
+
+      <nav class="category-nav" aria-label="Filtrar galería por categoría">
+        <button class="filter-btn active" data-category="all" aria-label="Mostrar todas las obras">
+          Todas
+        </button>
+        <button class="filter-btn" data-category="paisajes" aria-label="Filtrar por Paisajes">
+          Paisajes
+        </button>
+        <button class="filter-btn" data-category="juegos" aria-label="Filtrar por Juegos">
+          Juegos
+        </button>
+        <button class="filter-btn" data-category="lazos" aria-label="Filtrar por Lazos">
+          Lazos
+        </button>
+        <button class="filter-btn" data-category="abstractos" aria-label="Filtrar por Abstractos">
+          Abstractos
+        </button>
+      </nav>
+
+      <div class="header-links" aria-label="Redes y contacto">
+        <a href="https://www.instagram.com/veronica.rita.iriarte/" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://www.tiktok.com/@veronica.rita.iriarte" target="_blank" rel="noopener noreferrer">TikTok</a>
+        <a href="mailto:veronica.rita.iriarte@gmail.com">Mail</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="gallery-section" aria-labelledby="galeria-title">
+        <h2 id="galeria-title">Obras</h2>
+        <div id="gallery" class="gallery-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="about-section" aria-labelledby="sobre-title">
+        <h2 id="sobre-title">Sobre la artista</h2>
+        <p>
+          Verónica Iriarte explora la pintura como un espacio sensible entre forma, memoria y emoción.
+          Sus obras recorren paisajes íntimos, vínculos y abstracciones, con una mirada poética y una
+          búsqueda constante de equilibrio entre gesto y silencio.
+        </p>
+        <div class="about-links" aria-label="Redes y contacto de Verónica Iriarte">
+          <a href="https://www.instagram.com/veronica.rita.iriarte/" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="https://www.tiktok.com/@veronica.rita.iriarte" target="_blank" rel="noopener noreferrer">TikTok</a>
+          <a href="mailto:veronica.rita.iriarte@gmail.com">veronica.rita.iriarte@gmail.com</a>
+        </div>
+      </section>
+    </main>
+
+    <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Vista ampliada de obra">
+      <div class="lightbox-backdrop" data-close="true"></div>
+      <div class="lightbox-content" tabindex="-1">
+        <button id="lightbox-close" class="lightbox-close" aria-label="Cerrar vista ampliada">×</button>
+        <img id="lightbox-image" src="" alt="" />
+        <div class="lightbox-meta">
+          <h3 id="lightbox-title"></h3>
+          <p id="lightbox-category"></p>
+          <p id="lightbox-details"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
