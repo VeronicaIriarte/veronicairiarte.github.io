@@ -1,0 +1,110 @@
+[
+  {
+    "id": "p1",
+    "category": "paisajes",
+    "title": "Horizonte en calma",
+    "year": "2022",
+    "medium": "Óleo sobre lienzo",
+    "size": "90 x 120 cm",
+    "image": "assets/paisajes/p1.jpg"
+  },
+  {
+    "id": "p2",
+    "category": "paisajes",
+    "title": "Luz de tarde",
+    "year": "2021",
+    "medium": "Acrílico sobre tela",
+    "size": "80 x 100 cm",
+    "image": "assets/paisajes/p2.jpg"
+  },
+  {
+    "id": "p3",
+    "category": "paisajes",
+    "title": "Ruta interior",
+    "year": "2023",
+    "medium": "Mixta sobre lienzo",
+    "size": "70 x 100 cm",
+    "image": "assets/paisajes/p3.jpg"
+  },
+  {
+    "id": "j1",
+    "category": "juegos",
+    "title": "Juego de planos",
+    "year": "2020",
+    "medium": "Acrílico sobre madera",
+    "size": "60 x 80 cm",
+    "image": "assets/juegos/j1.jpg"
+  },
+  {
+    "id": "j2",
+    "category": "juegos",
+    "title": "Ritmo en pausa",
+    "year": "2024",
+    "medium": "Mixta sobre papel",
+    "size": "50 x 70 cm",
+    "image": "assets/juegos/j2.jpg"
+  },
+  {
+    "id": "j3",
+    "category": "juegos",
+    "title": "Contrapunto",
+    "year": "2021",
+    "medium": "Óleo sobre lienzo",
+    "size": "100 x 100 cm",
+    "image": "assets/juegos/j3.jpg"
+  },
+  {
+    "id": "l1",
+    "category": "lazos",
+    "title": "Tramas afectivas",
+    "year": "2019",
+    "medium": "Mixta sobre bastidor",
+    "size": "90 x 90 cm",
+    "image": "assets/lazos/l1.jpg"
+  },
+  {
+    "id": "l2",
+    "category": "lazos",
+    "title": "Nexo",
+    "year": "2022",
+    "medium": "Óleo y carbonilla",
+    "size": "80 x 110 cm",
+    "image": "assets/lazos/l2.jpg"
+  },
+  {
+    "id": "l3",
+    "category": "lazos",
+    "title": "Vínculo abierto",
+    "year": "2024",
+    "medium": "Acrílico sobre lienzo",
+    "size": "75 x 95 cm",
+    "image": "assets/lazos/l3.jpg"
+  },
+  {
+    "id": "a1",
+    "category": "abstractos",
+    "title": "Materia y silencio",
+    "year": "2023",
+    "medium": "Mixta sobre lienzo",
+    "size": "100 x 140 cm",
+    "image": "assets/abstractos/a1.jpg"
+  },
+  {
+    "id": "a2",
+    "category": "abstractos",
+    "title": "Campo expandido",
+    "year": "2020",
+    "medium": "Óleo sobre tela",
+    "size": "90 x 130 cm",
+    "image": "assets/abstractos/a2.jpg"
+  },
+  {
+    "id": "a3",
+    "category": "abstractos",
+    "title": "Ecos mínimos",
+    "year": "2024",
+    "medium": "Acrílico y tinta",
+    "size": "65 x 90 cm",
+    "image": "assets/abstractos/a3.jpg"
+  }
+]
