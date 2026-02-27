@@ -24,7 +24,7 @@ const CATEGORY_INTROS = {
     ],
   },
   juegos: {
-    title: 'Serie: Juegos y juguetes',
+    title: 'Serie: Juegos y Juguetes',
     paragraphs: [
       'La serie Juegos me acompañó durante muchos años. Nació a partir del nacimiento de mis hijos, un acontecimiento que transformó mi vida y mi mirada. Observarlos jugar, crear mundos propios, despertó en mí la necesidad de detener esos preciados instantes, detener el tiempo.',
       'Los juguetes fueron tomando vida propia y narrando pequeñas historias. Obra de gran tamaño donde estos personajes tienen entidad, presencia y vida. Los juguetes funcionan como una representación de nosotros mismos, superando la distinción sujeto-objeto. Ellos se enamoran, sufren, ríen volviéndose espejos emocionales.',
@@ -34,7 +34,7 @@ const CATEGORY_INTROS = {
     ],
   },
   lazos: {
-    title: 'Serie: Lazos y familia',
+    title: 'Serie: Lazos y Familia',
     paragraphs: [
       'Mis afectos son mi vida y la esencia de mi obra, todo entrelazado en una única necesidad: hablar de ese mundo donde los vínculos se encadenan y, a veces, nos atraviesan. En mi trabajo exploro la amistad, el amor, la felicidad y, sobre todo, el regalo de ser madre. Reflexiono sobre el paso del tiempo como una construcción mental que nos permite recordar el pasado e imaginar el futuro, pero donde lo único que realmente existe es el presente. Esta dualidad entre lo íntimo y lo universal capta la esencia de lo humano y da forma a mi propuesta artística.',
       'Cada trazo que realizo al dibujar es como una caricia, es sentir una fuerte intensidad en el aquí y ahora, a esa persona en lo más profundo de su ser. Cada pincelada, pensada, pausada, se convierte en un acto de meditación. Mi mente se sumerge en un estado de calma, donde el ruido exterior se disipa y solo queda el momento presente. Preparar el color, elegir su matiz, pensar la paleta… cada paso tiene una relación directa con una sensación muy profunda, algo instintivo que me lleva a develar cada obra. Ese camino difícil crea mucha ansiedad, nerviosismo, frustración, enojo, incomodidad o, por el contrario, satisfacción, bienestar, alegría.',
@@ -83,11 +83,30 @@ function createArtworkCard(artwork) {
   return card;
 }
 
+function interleaveArtworks(all) {
+  const order = ['jardines', 'juegos', 'lazos'];
+  const buckets = {};
+  order.forEach((c) => { buckets[c] = []; });
+  all.forEach((a) => { if (buckets[a.category]) buckets[a.category].push(a); });
+
+  const result = [];
+  let i = 0;
+  while (true) {
+    let added = false;
+    for (const c of order) {
+      if (i < buckets[c].length) { result.push(buckets[c][i]); added = true; }
+    }
+    if (!added) break;
+    i++;
+  }
+  return result;
+}
+
 function renderGallery() {
   gallery.innerHTML = '';
 
   const filtered = currentCategory === 'all'
-    ? artworks
+    ? interleaveArtworks(artworks)
     : artworks.filter((artwork) => artwork.category === currentCategory);
 
   filtered.forEach((artwork) => {
@@ -191,15 +210,12 @@ filterButtons.forEach((button) => {
   button.addEventListener('click', () => setCategory(button.dataset.category));
 });
 
-const copyEmailLink = document.getElementById('copy-email');
-copyEmailLink.addEventListener('click', (event) => {
-  event.preventDefault();
-
-  const email = copyEmailLink.dataset.email;
+function copyEmailToClipboard(element, originalText) {
+  const email = element.dataset.email;
 
   function showFeedback() {
-    copyEmailLink.textContent = '¡Copiado!';
-    setTimeout(() => { copyEmailLink.textContent = 'Mail'; }, 1500);
+    element.textContent = '¡Copiado!';
+    setTimeout(() => { element.textContent = originalText; }, 1500);
   }
 
   if (navigator.clipboard && navigator.clipboard.writeText) {
@@ -215,6 +231,18 @@ copyEmailLink.addEventListener('click', (event) => {
     document.body.removeChild(textarea);
     showFeedback();
   }
+}
+
+const copyEmailLink = document.getElementById('copy-email');
+copyEmailLink.addEventListener('click', (event) => {
+  event.preventDefault();
+  copyEmailToClipboard(copyEmailLink, 'Mail');
+});
+
+const tallerEmailLink = document.getElementById('taller-email');
+tallerEmailLink.addEventListener('click', (event) => {
+  event.preventDefault();
+  copyEmailToClipboard(tallerEmailLink, 'escribile por mail');
 });
 
 lightboxClose.addEventListener('click', closeLightbox);
