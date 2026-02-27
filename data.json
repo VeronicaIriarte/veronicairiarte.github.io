@@ -1,110 +1,1300 @@
 [
   {
-    "id": "p1",
-    "category": "paisajes",
-    "title": "Horizonte en calma",
-    "year": "2022",
-    "medium": "Óleo sobre lienzo",
-    "size": "90 x 120 cm",
-    "image": "assets/paisajes/p1.jpg"
+    "id": "ja1",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja1.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
   },
   {
-    "id": "p2",
-    "category": "paisajes",
-    "title": "Luz de tarde",
-    "year": "2021",
-    "medium": "Acrílico sobre tela",
-    "size": "80 x 100 cm",
-    "image": "assets/paisajes/p2.jpg"
+    "id": "ja2",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja2.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
   },
   {
-    "id": "p3",
-    "category": "paisajes",
-    "title": "Ruta interior",
-    "year": "2023",
-    "medium": "Mixta sobre lienzo",
-    "size": "70 x 100 cm",
-    "image": "assets/paisajes/p3.jpg"
+    "id": "ja3",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja3.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
   },
   {
-    "id": "j1",
+    "id": "ja4",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja4.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja5",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja5.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja6",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja6.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja7",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja7.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja8",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja8.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja9",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja9.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja10",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja10.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja11",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja11.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja12",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja12.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja13",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja13.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja14",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja14.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja15",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja15.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja16",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja16.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja17",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja17.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja18",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja18.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja19",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja19.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja20",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja20.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja21",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja21.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja22",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja22.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja23",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja23.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja24",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja24.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja25",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja25.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja26",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja26.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja27",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja27.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja28",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja28.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja29",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja29.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja30",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja30.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja31",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja31.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja32",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja32.JPG"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja33",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja33.JPG"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja34",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja34.JPG"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja35",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja35.JPG"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja36",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja36.JPG"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja37",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja37.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja38",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja38.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja39",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja39.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja40",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja40.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja41",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja41.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja42",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja42.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja43",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja43.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja44",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja44.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja45",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja45.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja46",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja46.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja47",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja47.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja48",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja48.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja49",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja49.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja50",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja50.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja51",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja51.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja52",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja52.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja53",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja53.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja54",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja54.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja55",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja55.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja56",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja56.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja57",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja57.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja58",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja58.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja59",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja59.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja60",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja60.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja61",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja61.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ja62",
+    "category": "jardines",
+    "images": [
+      "assets/obras/jardines/ja62.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ju1",
     "category": "juegos",
-    "title": "Juego de planos",
-    "year": "2020",
-    "medium": "Acrílico sobre madera",
-    "size": "60 x 80 cm",
-    "image": "assets/juegos/j1.jpg"
+    "images": [
+      "assets/obras/juegos/ju1.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
   },
   {
-    "id": "j2",
+    "id": "ju2",
     "category": "juegos",
-    "title": "Ritmo en pausa",
-    "year": "2024",
-    "medium": "Mixta sobre papel",
-    "size": "50 x 70 cm",
-    "image": "assets/juegos/j2.jpg"
+    "images": [
+      "assets/obras/juegos/ju2.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
   },
   {
-    "id": "j3",
+    "id": "ju3",
     "category": "juegos",
-    "title": "Contrapunto",
-    "year": "2021",
-    "medium": "Óleo sobre lienzo",
-    "size": "100 x 100 cm",
-    "image": "assets/juegos/j3.jpg"
+    "images": [
+      "assets/obras/juegos/ju3.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
   },
   {
-    "id": "l1",
+    "id": "ju4",
+    "category": "juegos",
+    "images": [
+      "assets/obras/juegos/ju4.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ju5",
+    "category": "juegos",
+    "images": [
+      "assets/obras/juegos/ju5.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ju6",
+    "category": "juegos",
+    "images": [
+      "assets/obras/juegos/ju6.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ju7",
+    "category": "juegos",
+    "images": [
+      "assets/obras/juegos/ju7.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ju8",
+    "category": "juegos",
+    "images": [
+      "assets/obras/juegos/ju8.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ju9",
+    "category": "juegos",
+    "images": [
+      "assets/obras/juegos/ju9.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ju10",
+    "category": "juegos",
+    "images": [
+      "assets/obras/juegos/ju10.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ju11",
+    "category": "juegos",
+    "images": [
+      "assets/obras/juegos/ju11.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ju12",
+    "category": "juegos",
+    "images": [
+      "assets/obras/juegos/ju12.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ju13",
+    "category": "juegos",
+    "images": [
+      "assets/obras/juegos/ju13.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ju14",
+    "category": "juegos",
+    "images": [
+      "assets/obras/juegos/ju14.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ju15",
+    "category": "juegos",
+    "images": [
+      "assets/obras/juegos/ju15.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ju16",
+    "category": "juegos",
+    "images": [
+      "assets/obras/juegos/ju16.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ju17",
+    "category": "juegos",
+    "images": [
+      "assets/obras/juegos/ju17.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ju18",
+    "category": "juegos",
+    "images": [
+      "assets/obras/juegos/ju18.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ju19",
+    "category": "juegos",
+    "images": [
+      "assets/obras/juegos/ju19.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ju20",
+    "category": "juegos",
+    "images": [
+      "assets/obras/juegos/ju20.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ju21",
+    "category": "juegos",
+    "images": [
+      "assets/obras/juegos/ju21.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ju22",
+    "category": "juegos",
+    "images": [
+      "assets/obras/juegos/ju22.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ju23",
+    "category": "juegos",
+    "images": [
+      "assets/obras/juegos/ju23.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ju24",
+    "category": "juegos",
+    "images": [
+      "assets/obras/juegos/ju24.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ju25",
+    "category": "juegos",
+    "images": [
+      "assets/obras/juegos/ju25.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ju26",
+    "category": "juegos",
+    "images": [
+      "assets/obras/juegos/ju26.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ju27",
+    "category": "juegos",
+    "images": [
+      "assets/obras/juegos/ju27.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ju28",
+    "category": "juegos",
+    "images": [
+      "assets/obras/juegos/ju28.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ju29",
+    "category": "juegos",
+    "images": [
+      "assets/obras/juegos/ju29.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ju30",
+    "category": "juegos",
+    "images": [
+      "assets/obras/juegos/ju30.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "ju31",
+    "category": "juegos",
+    "images": [
+      "assets/obras/juegos/ju31.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "la1",
     "category": "lazos",
-    "title": "Tramas afectivas",
-    "year": "2019",
-    "medium": "Mixta sobre bastidor",
-    "size": "90 x 90 cm",
-    "image": "assets/lazos/l1.jpg"
+    "images": [
+      "assets/obras/lazos/la1.jpg",
+      "assets/obras/lazos/la1a.jpg",
+      "assets/obras/lazos/la1b.jpg",
+      "assets/obras/lazos/la1c.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
   },
   {
-    "id": "l2",
+    "id": "la2",
     "category": "lazos",
-    "title": "Nexo",
-    "year": "2022",
-    "medium": "Óleo y carbonilla",
-    "size": "80 x 110 cm",
-    "image": "assets/lazos/l2.jpg"
+    "images": [
+      "assets/obras/lazos/la2.jpg",
+      "assets/obras/lazos/la2a.jpg",
+      "assets/obras/lazos/la2b.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
   },
   {
-    "id": "l3",
+    "id": "la3",
     "category": "lazos",
-    "title": "Vínculo abierto",
-    "year": "2024",
-    "medium": "Acrílico sobre lienzo",
-    "size": "75 x 95 cm",
-    "image": "assets/lazos/l3.jpg"
+    "images": [
+      "assets/obras/lazos/la3.jpg",
+      "assets/obras/lazos/la3a.jpg",
+      "assets/obras/lazos/la3b.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
   },
   {
-    "id": "a1",
-    "category": "abstractos",
-    "title": "Materia y silencio",
-    "year": "2023",
-    "medium": "Mixta sobre lienzo",
-    "size": "100 x 140 cm",
-    "image": "assets/abstractos/a1.jpg"
+    "id": "la4",
+    "category": "lazos",
+    "images": [
+      "assets/obras/lazos/la4.jpg",
+      "assets/obras/lazos/la4b.jpg",
+      "assets/obras/lazos/la4c.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
   },
   {
-    "id": "a2",
-    "category": "abstractos",
-    "title": "Campo expandido",
-    "year": "2020",
-    "medium": "Óleo sobre tela",
-    "size": "90 x 130 cm",
-    "image": "assets/abstractos/a2.jpg"
+    "id": "la5",
+    "category": "lazos",
+    "images": [
+      "assets/obras/lazos/la5.jpg",
+      "assets/obras/lazos/la5b.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
   },
   {
-    "id": "a3",
-    "category": "abstractos",
-    "title": "Ecos mínimos",
-    "year": "2024",
-    "medium": "Acrílico y tinta",
-    "size": "65 x 90 cm",
-    "image": "assets/abstractos/a3.jpg"
+    "id": "la6",
+    "category": "lazos",
+    "images": [
+      "assets/obras/lazos/la6.jpg",
+      "assets/obras/lazos/la6b.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "la7",
+    "category": "lazos",
+    "images": [
+      "assets/obras/lazos/la7.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "la8",
+    "category": "lazos",
+    "images": [
+      "assets/obras/lazos/la8.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "la9",
+    "category": "lazos",
+    "images": [
+      "assets/obras/lazos/la9.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "la10",
+    "category": "lazos",
+    "images": [
+      "assets/obras/lazos/la10.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "la11",
+    "category": "lazos",
+    "images": [
+      "assets/obras/lazos/la11.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "la12",
+    "category": "lazos",
+    "images": [
+      "assets/obras/lazos/la12.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "la13",
+    "category": "lazos",
+    "images": [
+      "assets/obras/lazos/la13.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "la14",
+    "category": "lazos",
+    "images": [
+      "assets/obras/lazos/la14.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "la15",
+    "category": "lazos",
+    "images": [
+      "assets/obras/lazos/la15.png"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "la16",
+    "category": "lazos",
+    "images": [
+      "assets/obras/lazos/la16.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "la17",
+    "category": "lazos",
+    "images": [
+      "assets/obras/lazos/la17.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "la18",
+    "category": "lazos",
+    "images": [
+      "assets/obras/lazos/la18.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "la19",
+    "category": "lazos",
+    "images": [
+      "assets/obras/lazos/la19.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "la20",
+    "category": "lazos",
+    "images": [
+      "assets/obras/lazos/la20.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "la21",
+    "category": "lazos",
+    "images": [
+      "assets/obras/lazos/la21.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "la22",
+    "category": "lazos",
+    "images": [
+      "assets/obras/lazos/la22.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "la23",
+    "category": "lazos",
+    "images": [
+      "assets/obras/lazos/la23.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
+  },
+  {
+    "id": "la24",
+    "category": "lazos",
+    "images": [
+      "assets/obras/lazos/la24.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
   }
 ]

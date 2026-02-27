@@ -100,6 +100,30 @@ main {
   margin: 0 0 1.6rem;
 }
 
+.category-intro {
+  max-width: 72ch;
+  margin-bottom: 2.4rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.category-intro h2 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-size: clamp(1.7rem, 3vw, 2.3rem);
+  margin: 0 0 1.4rem;
+}
+
+.category-intro p {
+  margin: 0 0 1.1rem;
+  line-height: 1.75;
+  color: var(--text);
+}
+
+.category-intro p:last-child {
+  margin-bottom: 0;
+}
+
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -146,13 +170,93 @@ main {
   font-size: 0.95rem;
 }
 
+.studio-section {
+  margin-top: clamp(3rem, 8vw, 7rem);
+}
+
+.studio-section h2 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-size: clamp(1.7rem, 3vw, 2.3rem);
+  margin: 0 0 1.6rem;
+}
+
+.studio-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.studio-photo {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  display: block;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+}
+
+.studio-text {
+  max-width: 68ch;
+}
+
+.studio-text p {
+  margin: 0 0 1.2rem;
+}
+
+.studio-text a {
+  color: var(--text);
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
+@media (min-width: 640px) {
+  .studio-body {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .studio-photo {
+    flex-shrink: 0;
+    width: 280px;
+  }
+}
+
 .about-section {
   margin-top: clamp(3rem, 8vw, 7rem);
+}
+
+.about-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.about-photo {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  display: block;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+}
+
+.about-text {
   max-width: 68ch;
 }
 
 .about-section p {
   margin: 0 0 1.2rem;
+}
+
+@media (min-width: 640px) {
+  .about-body {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .about-photo {
+    flex-shrink: 0;
+    width: 280px;
+  }
 }
 
 .lightbox {
@@ -200,10 +304,55 @@ main {
 
 .lightbox-content img {
   width: 100%;
-  height: auto;
+  height: 60vh;
+  min-height: 260px;
   max-height: 70vh;
   object-fit: contain;
   background: #f1eee7;
+  display: block;
+}
+
+.lightbox-thumbs {
+  display: flex;
+  gap: 0.5rem;
+  overflow-x: auto;
+  padding: 0.6rem 0 0.2rem;
+  scrollbar-width: thin;
+  scrollbar-color: var(--line) transparent;
+}
+
+.lightbox-thumbs:empty {
+  display: none;
+}
+
+.thumb-btn {
+  flex-shrink: 0;
+  width: 72px;
+  height: 72px;
+  padding: 0;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  background: #f1eee7;
+  cursor: pointer;
+  transition: border-color 0.18s ease;
+  overflow: hidden;
+}
+
+.thumb-btn img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.thumb-btn:hover,
+.thumb-btn:focus-visible {
+  border-color: var(--muted);
+  outline: none;
+}
+
+.thumb-btn.active {
+  border-color: var(--text);
 }
 
 .lightbox-meta {

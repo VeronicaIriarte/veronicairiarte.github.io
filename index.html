@@ -8,6 +8,19 @@
       name="description"
       content="Galería de obras de Verónica Iriarte, artista plástica."
     />
+    <!-- Open Graph -->
+    <meta property="og:title" content="Verónica Rita Iriarte | Artista plástica" />
+    <meta property="og:description" content="Galería de obras de Verónica Iriarte, artista plástica." />
+    <meta property="og:image" content="https://veronicairiarte.github.io/assets/artista/foto.jpg" />
+    <meta property="og:url" content="https://veronicairiarte.github.io/" />
+    <meta property="og:type" content="website" />
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Verónica Rita Iriarte | Artista plástica" />
+    <meta name="twitter:description" content="Galería de obras de Verónica Iriarte, artista plástica." />
+    <meta name="twitter:image" content="https://veronicairiarte.github.io/assets/artista/foto.jpg" />
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,8 +40,8 @@
         <button class="filter-btn active" data-category="all" aria-label="Mostrar todas las obras">
           Todas
         </button>
-        <button class="filter-btn" data-category="paisajes" aria-label="Filtrar por Paisajes">
-          Paisajes
+        <button class="filter-btn" data-category="jardines" aria-label="Filtrar por Jardines">
+          Jardines
         </button>
         <button class="filter-btn" data-category="juegos" aria-label="Filtrar por Juegos">
           Juegos
@@ -36,35 +49,62 @@
         <button class="filter-btn" data-category="lazos" aria-label="Filtrar por Lazos">
           Lazos
         </button>
-        <button class="filter-btn" data-category="abstractos" aria-label="Filtrar por Abstractos">
-          Abstractos
-        </button>
       </nav>
 
       <div class="header-links" aria-label="Redes y contacto">
         <a href="https://www.instagram.com/veronica.rita.iriarte/" target="_blank" rel="noopener noreferrer">Instagram</a>
         <a href="https://www.tiktok.com/@veronica.rita.iriarte" target="_blank" rel="noopener noreferrer">TikTok</a>
-        <a href="mailto:veronica.rita.iriarte@gmail.com">Mail</a>
+        <a href="mailto:veronica.rita.iriarte@gmail.com" id="copy-email" data-email="veronica.rita.iriarte@gmail.com" aria-live="polite">Mail</a>
       </div>
     </header>
 
     <main>
+      <section id="category-intro" class="category-intro" hidden>
+        <h2 id="category-intro-title"></h2>
+        <div id="category-intro-text"></div>
+      </section>
+
       <section class="gallery-section" aria-labelledby="galeria-title">
         <h2 id="galeria-title">Obras</h2>
         <div id="gallery" class="gallery-grid" aria-live="polite"></div>
       </section>
 
+      <section class="studio-section" aria-labelledby="taller-title">
+        <h2 id="taller-title">Taller</h2>
+        <div class="studio-body">
+          <img src="assets/taller/Taller.png" alt="Taller de Verónica Rita Iriarte" class="studio-photo" />
+          <div class="studio-text">
+            <p>
+              En Belgrano, Verónica trabaja en su taller personal donde produce obra, recibe visitas y dicta
+              clases particulares o a grupos reducidos. Un espacio íntimo de creación, abierto a quienes
+              quieran conocer su proceso de cerca o aprender pintura.
+            </p>
+            <p>
+              Si te interesa conocer su trabajo o tomar clases,
+              <a href="mailto:veronica.rita.iriarte@gmail.com">escribile por mail</a>.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section class="about-section" aria-labelledby="sobre-title">
         <h2 id="sobre-title">Sobre la artista</h2>
-        <p>
-          Verónica Rita Iriarte explora la pintura como un espacio sensible entre forma, memoria y emoción.
-          Sus obras recorren paisajes íntimos, vínculos y abstracciones, con una mirada poética y una
-          búsqueda constante de equilibrio entre gesto y silencio.
-        </p>
-        <div class="about-links" aria-label="Redes y contacto de Verónica Iriarte">
-          <a href="https://www.instagram.com/veronica.rita.iriarte/" target="_blank" rel="noopener noreferrer">Instagram</a>
-          <a href="https://www.tiktok.com/@veronica.rita.iriarte" target="_blank" rel="noopener noreferrer">TikTok</a>
-          <a href="mailto:veronica.rita.iriarte@gmail.com">veronica.rita.iriarte@gmail.com</a>
+        <div class="about-body">
+          <img src="assets/artista/foto.jpg" alt="Verónica Rita Iriarte" class="about-photo" />
+          <div class="about-text">
+            <p>
+              Verónica Rita Iriarte explora la pintura como un espacio sensible entre forma, memoria y emoción.
+              Sus obras recorren paisajes íntimos, vínculos y abstracciones, con una mirada poética y una
+              búsqueda constante de equilibrio entre gesto y silencio.
+            </p>
+            <div class="about-links" aria-label="Redes y contacto de Verónica Iriarte">
+              <a href="assets/docs/cvesp.pdf" target="_blank" rel="noopener noreferrer">CV (Español)</a>
+              <a href="assets/docs/cveng.pdf" target="_blank" rel="noopener noreferrer">CV (English)</a>
+              <a href="https://www.instagram.com/veronica.rita.iriarte/" target="_blank" rel="noopener noreferrer">Instagram</a>
+              <a href="https://www.tiktok.com/@veronica.rita.iriarte" target="_blank" rel="noopener noreferrer">TikTok</a>
+              <a href="mailto:veronica.rita.iriarte@gmail.com">veronica.rita.iriarte@gmail.com</a>
+            </div>
+          </div>
         </div>
       </section>
     </main>
@@ -74,6 +114,7 @@
       <div class="lightbox-content" tabindex="-1">
         <button id="lightbox-close" class="lightbox-close" aria-label="Cerrar vista ampliada">×</button>
         <img id="lightbox-image" src="" alt="" />
+        <div id="lightbox-thumbs" class="lightbox-thumbs" aria-label="Miniaturas de la obra"></div>
         <div class="lightbox-meta">
           <h3 id="lightbox-title"></h3>
           <p id="lightbox-category"></p>
