@@ -126,7 +126,12 @@ function setCategory(category) {
     categoryIntroTitle.textContent = intro.title;
     categoryIntroText.innerHTML = intro.paragraphs.map((p) => `<p>${p}</p>`).join('');
     categoryIntro.hidden = false;
-    categoryIntro.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    const header = document.querySelector('.site-header');
+    const headerHeight = header ? header.offsetHeight : 0;
+    const targetScrollTop = window.scrollY + categoryIntro.getBoundingClientRect().top - headerHeight;
+    if (window.scrollY > targetScrollTop) {
+      window.scrollTo({ top: targetScrollTop, behavior: 'smooth' });
+    }
   } else {
     categoryIntro.hidden = true;
   }
@@ -208,6 +213,19 @@ function closeLightbox() {
 
 filterButtons.forEach((button) => {
   button.addEventListener('click', () => setCategory(button.dataset.category));
+});
+
+document.querySelectorAll('.nav-link-btn').forEach((link) => {
+  link.addEventListener('click', (e) => {
+    e.preventDefault();
+    const targetId = link.getAttribute('href').slice(1);
+    const target = document.getElementById(targetId);
+    if (!target) return;
+    const header = document.querySelector('.site-header');
+    const headerHeight = header ? header.offsetHeight : 0;
+    const top = window.scrollY + target.getBoundingClientRect().top - headerHeight;
+    window.scrollTo({ top, behavior: 'smooth' });
+  });
 });
 
 function copyEmailToClipboard(element, originalText) {

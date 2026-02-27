@@ -74,6 +74,34 @@ body {
   outline: none;
 }
 
+.nav-divider {
+  display: inline-block;
+  width: 1px;
+  background: var(--line);
+  align-self: stretch;
+  margin: 0.1rem 0;
+}
+
+.nav-link-btn {
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--text);
+  padding: 0.45rem 0.8rem;
+  border-radius: 999px;
+  cursor: pointer;
+  font: inherit;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.24s ease;
+}
+
+.nav-link-btn:hover,
+.nav-link-btn:focus-visible {
+  background: #ece8df;
+  border-color: #d4cfc4;
+  outline: none;
+}
+
 .header-links,
 .about-links {
   display: flex;
