@@ -184,6 +184,13 @@ main {
   display: block;
 }
 
+/* Ajustes de encuadre por obra (solo miniatura) */
+.artwork-card[data-id="la4"] img  { object-position: center 20%; }
+.artwork-card[data-id="la7"] img  { object-position: 65% center; }
+.artwork-card[data-id="la10"] img { object-position: 70% center; }
+.artwork-card[data-id="la11"] img { object-position: center 20%; }
+.artwork-card[data-id="la19"] img { object-position: 75% center; }
+
 .artwork-info {
   padding: 0.9rem 0.8rem 1rem;
 }

@@ -24,7 +24,7 @@ const CATEGORY_INTROS = {
     ],
   },
   juegos: {
-    title: 'Serie: Juegos y Juguetes',
+    title: 'Serie: Juegos e Historias',
     paragraphs: [
       'La serie Juegos me acompañó durante muchos años. Nació a partir del nacimiento de mis hijos, un acontecimiento que transformó mi vida y mi mirada. Observarlos jugar, crear mundos propios, despertó en mí la necesidad de detener esos preciados instantes, detener el tiempo.',
       'Los juguetes fueron tomando vida propia y narrando pequeñas historias. Obra de gran tamaño donde estos personajes tienen entidad, presencia y vida. Los juguetes funcionan como una representación de nosotros mismos, superando la distinción sujeto-objeto. Ellos se enamoran, sufren, ríen volviéndose espejos emocionales.',
@@ -68,6 +68,7 @@ function createArtworkCard(artwork) {
   const card = document.createElement('button');
   card.className = 'artwork-card';
   card.type = 'button';
+  card.dataset.id = artwork.id;
   card.setAttribute('aria-label', `Abrir obra ${artwork.title}`);
 
   card.innerHTML = `
@@ -83,30 +84,19 @@ function createArtworkCard(artwork) {
   return card;
 }
 
-function interleaveArtworks(all) {
-  const order = ['jardines', 'juegos', 'lazos'];
+function groupArtworks(all) {
+  const order = ['lazos', 'juegos', 'jardines'];
   const buckets = {};
   order.forEach((c) => { buckets[c] = []; });
   all.forEach((a) => { if (buckets[a.category]) buckets[a.category].push(a); });
-
-  const result = [];
-  let i = 0;
-  while (true) {
-    let added = false;
-    for (const c of order) {
-      if (i < buckets[c].length) { result.push(buckets[c][i]); added = true; }
-    }
-    if (!added) break;
-    i++;
-  }
-  return result;
+  return order.flatMap((c) => buckets[c]);
 }
 
 function renderGallery() {
   gallery.innerHTML = '';
 
   const filtered = currentCategory === 'all'
-    ? interleaveArtworks(artworks)
+    ? groupArtworks(artworks)
     : artworks.filter((artwork) => artwork.category === currentCategory);
 
   filtered.forEach((artwork) => {

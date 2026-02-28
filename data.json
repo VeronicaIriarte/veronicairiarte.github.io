@@ -1296,5 +1296,16 @@
     "year": "",
     "medium": "",
     "size": ""
+  },
+  {
+    "id": "la25",
+    "category": "lazos",
+    "images": [
+      "assets/obras/lazos/la25.jpg"
+    ],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": ""
   }
 ]
