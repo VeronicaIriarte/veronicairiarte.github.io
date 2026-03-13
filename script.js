@@ -13,6 +13,13 @@ const categoryIntro = document.getElementById('category-intro');
 const categoryIntroTitle = document.getElementById('category-intro-title');
 const categoryIntroText = document.getElementById('category-intro-text');
 
+const priceFilter   = document.getElementById('price-filter');
+const rangeMin      = document.getElementById('range-min');
+const rangeMax      = document.getElementById('range-max');
+const sliderFill    = document.getElementById('price-slider-fill');
+const labelMin      = document.getElementById('price-label-min');
+const labelMax      = document.getElementById('price-label-max');
+
 const CATEGORY_INTROS = {
   jardines: {
     title: 'Serie: Jardines y Paisajes',
@@ -50,6 +57,12 @@ let artworks = [];
 let currentCategory = 'all';
 let lightboxArtwork = null;
 let lightboxIndex = 0;
+let priceRangeMin = 0;
+let priceRangeMax = 0;
+let globalMin = 0;
+let globalMax = 0;
+
+/* ── Helpers ── */
 
 function formatCategory(value) {
   return value.charAt(0).toUpperCase() + value.slice(1);
@@ -73,6 +86,60 @@ function formatPrice(price) {
   }
   return '';
 }
+
+function formatPriceShort(value) {
+  return 'USD\u00A0' + new Intl.NumberFormat('es-AR').format(value);
+}
+
+/* ── Price filter ── */
+
+function updateSliderFill() {
+  const min = parseInt(rangeMin.min);
+  const max = parseInt(rangeMin.max);
+  const lo  = (priceRangeMin - min) / (max - min) * 100;
+  const hi  = (priceRangeMax - min) / (max - min) * 100;
+  sliderFill.style.left  = lo + '%';
+  sliderFill.style.width = (hi - lo) + '%';
+  labelMin.textContent = formatPriceShort(priceRangeMin);
+  labelMax.textContent = formatPriceShort(priceRangeMax);
+}
+
+function initPriceFilter() {
+  const prices = artworks
+    .map((a) => a.price)
+    .filter((p) => typeof p === 'number');
+
+  globalMin = Math.min(...prices);
+  globalMax = Math.max(...prices);
+  priceRangeMin = globalMin;
+  priceRangeMax = globalMax;
+
+  [rangeMin, rangeMax].forEach((input) => {
+    input.min   = globalMin;
+    input.max   = globalMax;
+    input.step  = 100;
+  });
+
+  rangeMin.value = globalMin;
+  rangeMax.value = globalMax;
+  updateSliderFill();
+}
+
+rangeMin.addEventListener('input', () => {
+  priceRangeMin = Math.min(parseInt(rangeMin.value), priceRangeMax - 100);
+  rangeMin.value = priceRangeMin;
+  updateSliderFill();
+  renderGallery();
+});
+
+rangeMax.addEventListener('input', () => {
+  priceRangeMax = Math.max(parseInt(rangeMax.value), priceRangeMin + 100);
+  rangeMax.value = priceRangeMax;
+  updateSliderFill();
+  renderGallery();
+});
+
+/* ── Gallery ── */
 
 function createArtworkCard(artwork) {
   const card = document.createElement('button');
@@ -109,7 +176,11 @@ function renderGallery() {
   if (currentCategory === 'all') {
     filtered = groupArtworks(artworks);
   } else if (currentCategory === 'comprar') {
-    filtered = groupArtworks(artworks).filter((artwork) => typeof artwork.price === 'number');
+    filtered = groupArtworks(artworks).filter((artwork) =>
+      typeof artwork.price === 'number' &&
+      artwork.price >= priceRangeMin &&
+      artwork.price <= priceRangeMax
+    );
   } else {
     filtered = artworks.filter((artwork) => artwork.category === currentCategory);
   }
@@ -126,23 +197,32 @@ function setCategory(category) {
     button.classList.toggle('active', button.dataset.category === category);
   });
 
-  const intro = CATEGORY_INTROS[category];
-  if (intro && category !== 'comprar') {
-    categoryIntroTitle.textContent = intro.title;
-    categoryIntroText.innerHTML = intro.paragraphs.map((p) => `<p>${p}</p>`).join('');
-    categoryIntro.hidden = false;
-    const header = document.querySelector('.site-header');
-    const headerHeight = header ? header.offsetHeight : 0;
-    const targetScrollTop = window.scrollY + categoryIntro.getBoundingClientRect().top - headerHeight;
-    if (window.scrollY > targetScrollTop) {
-      window.scrollTo({ top: targetScrollTop, behavior: 'smooth' });
-    }
-  } else {
+  if (category === 'comprar') {
+    initPriceFilter();
+    priceFilter.hidden = false;
     categoryIntro.hidden = true;
+  } else {
+    priceFilter.hidden = true;
+    const intro = CATEGORY_INTROS[category];
+    if (intro) {
+      categoryIntroTitle.textContent = intro.title;
+      categoryIntroText.innerHTML = intro.paragraphs.map((p) => `<p>${p}</p>`).join('');
+      categoryIntro.hidden = false;
+      const header = document.querySelector('.site-header');
+      const headerHeight = header ? header.offsetHeight : 0;
+      const targetScrollTop = window.scrollY + categoryIntro.getBoundingClientRect().top - headerHeight;
+      if (window.scrollY > targetScrollTop) {
+        window.scrollTo({ top: targetScrollTop, behavior: 'smooth' });
+      }
+    } else {
+      categoryIntro.hidden = true;
+    }
   }
 
   renderGallery();
 }
+
+/* ── Lightbox ── */
 
 function setLightboxImage(src, alt, activeThumb) {
   lightboxImage.src = src;
@@ -217,6 +297,8 @@ function closeLightbox() {
   lightboxArtwork = null;
   lightboxIndex = 0;
 }
+
+/* ── Event listeners ── */
 
 filterButtons.forEach((button) => {
   button.addEventListener('click', () => setCategory(button.dataset.category));
