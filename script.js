@@ -5,6 +5,7 @@ const lightboxImage = document.getElementById('lightbox-image');
 const lightboxTitle = document.getElementById('lightbox-title');
 const lightboxCategory = document.getElementById('lightbox-category');
 const lightboxDetails = document.getElementById('lightbox-details');
+const lightboxPrice = document.getElementById('lightbox-price');
 const lightboxClose = document.getElementById('lightbox-close');
 const lightboxThumbs = document.getElementById('lightbox-thumbs');
 const lightboxContent = lightbox.querySelector('.lightbox-content');
@@ -56,12 +57,21 @@ function formatCategory(value) {
 
 function buildDetails(artwork) {
   const details = [];
-
   if (artwork.year) details.push(artwork.year);
   if (artwork.medium) details.push(artwork.medium);
   if (artwork.size) details.push(artwork.size);
+  return details.join(' · ');
+}
 
-  return details.length > 0 ? details.join(' · ') : 'Sin detalles adicionales';
+function formatPrice(price) {
+  if (price === null || price === undefined || price === '') return '';
+  if (price === 'no_vende') return 'No disponible para la venta';
+  if (price === 'vendido') return 'Vendido · colección privada';
+  if (price === 'vendido_noruega') return 'Vendido · colección privada en Noruega';
+  if (typeof price === 'number') {
+    return 'USD\u00A0' + new Intl.NumberFormat('es-AR').format(price);
+  }
+  return '';
 }
 
 function createArtworkCard(artwork) {
@@ -69,13 +79,13 @@ function createArtworkCard(artwork) {
   card.className = 'artwork-card';
   card.type = 'button';
   card.dataset.id = artwork.id;
-  card.setAttribute('aria-label', `Abrir obra ${artwork.title}`);
+  const displayName = artwork.title || formatCategory(artwork.category);
+  card.setAttribute('aria-label', `Abrir obra: ${displayName}`);
 
   card.innerHTML = `
-    <img src="${artwork.images[0]}" alt="${artwork.title}, ${formatCategory(artwork.category)}" loading="lazy" />
+    <img src="${artwork.images[0]}" alt="${displayName}, ${formatCategory(artwork.category)}" loading="lazy" />
     <div class="artwork-info">
-      <h3>${artwork.title}</h3>
-      <p>${formatCategory(artwork.category)}</p>
+      <h3>${displayName}</h3>
     </div>
   `;
 
@@ -95,9 +105,14 @@ function groupArtworks(all) {
 function renderGallery() {
   gallery.innerHTML = '';
 
-  const filtered = currentCategory === 'all'
-    ? groupArtworks(artworks)
-    : artworks.filter((artwork) => artwork.category === currentCategory);
+  let filtered;
+  if (currentCategory === 'all') {
+    filtered = groupArtworks(artworks);
+  } else if (currentCategory === 'comprar') {
+    filtered = groupArtworks(artworks).filter((artwork) => typeof artwork.price === 'number');
+  } else {
+    filtered = artworks.filter((artwork) => artwork.category === currentCategory);
+  }
 
   filtered.forEach((artwork) => {
     gallery.appendChild(createArtworkCard(artwork));
@@ -112,7 +127,7 @@ function setCategory(category) {
   });
 
   const intro = CATEGORY_INTROS[category];
-  if (intro) {
+  if (intro && category !== 'comprar') {
     categoryIntroTitle.textContent = intro.title;
     categoryIntroText.innerHTML = intro.paragraphs.map((p) => `<p>${p}</p>`).join('');
     categoryIntro.hidden = false;
@@ -143,7 +158,7 @@ function renderThumbs(artwork) {
 
   if (artwork.images.length <= 1) return;
 
-  const alt = `${artwork.title}, ${formatCategory(artwork.category)}`;
+  const alt = `${artwork.title || formatCategory(artwork.category)}, ${formatCategory(artwork.category)}`;
 
   artwork.images.forEach((src, index) => {
     const btn = document.createElement('button');
@@ -166,7 +181,7 @@ function navigateLightbox(delta) {
   if (!lightboxArtwork || lightboxArtwork.images.length <= 1) return;
   lightboxIndex = (lightboxIndex + delta + lightboxArtwork.images.length) % lightboxArtwork.images.length;
   const src = lightboxArtwork.images[lightboxIndex];
-  const alt = `${lightboxArtwork.title}, ${formatCategory(lightboxArtwork.category)}`;
+  const alt = `${lightboxArtwork.title || formatCategory(lightboxArtwork.category)}, ${formatCategory(lightboxArtwork.category)}`;
   const thumbs = lightboxThumbs.querySelectorAll('.thumb-btn');
   setLightboxImage(src, alt, thumbs[lightboxIndex]);
 }
@@ -174,13 +189,15 @@ function navigateLightbox(delta) {
 function openLightbox(artwork) {
   lightboxArtwork = artwork;
   lightboxIndex = 0;
-  const alt = `${artwork.title}, ${formatCategory(artwork.category)}`;
+  const displayName = artwork.title || formatCategory(artwork.category);
+  const alt = `${displayName}, ${formatCategory(artwork.category)}`;
 
   lightboxImage.src = artwork.images[0];
   lightboxImage.alt = alt;
   lightboxTitle.textContent = artwork.title;
-  lightboxCategory.textContent = `Categoría: ${formatCategory(artwork.category)}`;
+  lightboxCategory.textContent = formatCategory(artwork.category);
   lightboxDetails.textContent = buildDetails(artwork);
+  lightboxPrice.textContent = formatPrice(artwork.price);
 
   renderThumbs(artwork);
 
