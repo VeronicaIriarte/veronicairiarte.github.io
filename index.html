@@ -40,6 +40,10 @@
         <button class="filter-btn active" data-category="all" aria-label="Mostrar todas las obras">
           Todas
         </button>
+        <button class="filter-btn" data-category="comprar" aria-label="Mostrar obras disponibles para comprar">
+          Comprar
+        </button>
+        <span class="nav-divider" aria-hidden="true"></span>
         <button class="filter-btn" data-category="jardines" aria-label="Filtrar por Jardines">
           Jardines
         </button>
@@ -119,9 +123,14 @@
         <img id="lightbox-image" src="" alt="" />
         <div id="lightbox-thumbs" class="lightbox-thumbs" aria-label="Miniaturas de la obra"></div>
         <div class="lightbox-meta">
-          <h3 id="lightbox-title"></h3>
-          <p id="lightbox-category"></p>
-          <p id="lightbox-details"></p>
+          <div class="lightbox-meta-left">
+            <p id="lightbox-category"></p>
+            <h3 id="lightbox-title"></h3>
+          </div>
+          <div class="lightbox-meta-right">
+            <p id="lightbox-details"></p>
+            <p id="lightbox-price"></p>
+          </div>
         </div>
       </div>
     </div>
