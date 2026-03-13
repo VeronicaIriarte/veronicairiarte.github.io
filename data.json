@@ -833,11 +833,11 @@
     "id": "ja27",
     "category": "jardines",
     "images": ["assets/obras/jardines/ja27.jpg"],
-    "title": "Campo · Camino · Hogar",
-    "year": "1998",
-    "medium": "arena, cordón, piedras y óleo s/ cartón",
-    "size": "54 x 30 cm (3 obras)",
-    "price": 300
+    "title": "Una tarde tranquila",
+    "year": "",
+    "medium": "óleo con espátula s/ tela",
+    "size": "39 x 56 cm",
+    "price": 400
   },
   {
     "id": "ja28",
@@ -1182,11 +1182,31 @@
   {
     "id": "ja62",
     "category": "jardines",
-    "images": ["assets/obras/jardines/ja62.jpg"],
-    "title": "Una tarde tranquila",
-    "year": "",
-    "medium": "óleo con espátula s/ tela",
-    "size": "39 x 56 cm",
-    "price": 400
+    "images": ["assets/obras/jardines/ja62.jpg","assets/obras/jardines/ja62a.jpg"],
+    "title": "Campo",
+    "year": "1998",
+    "medium": "arena, cordón, piedras y óleo s/ cartón",
+    "size": "54 x 30 cm",
+    "price": 200
+  },
+  {
+    "id": "ja63",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja63.jpg","assets/obras/jardines/ja63a.jpg"],
+    "title": "Camino",
+    "year": "1998",
+    "medium": "arena, cordón, piedras y óleo s/ cartón",
+    "size": "54 x 30 cm",
+    "price": 200
+  },
+  {
+    "id": "ja64",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja64.jpg","assets/obras/jardines/ja64a.jpg"],
+    "title": "Hogar",
+    "year": "1998",
+    "medium": "arena, cordón, piedras y óleo s/ cartón",
+    "size": "54 x 30 cm",
+    "price": 200
   }
 ]
