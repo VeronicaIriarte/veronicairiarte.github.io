@@ -200,12 +200,7 @@ main {
   font-family: "Cormorant Garamond", serif;
   font-size: 1.55rem;
   font-weight: 500;
-}
-
-.artwork-info p {
-  margin: 0.2rem 0 0;
-  color: var(--muted);
-  font-size: 0.95rem;
+  line-height: 1.2;
 }
 
 .studio-section {
@@ -393,40 +388,77 @@ main {
   border-color: var(--text);
 }
 
+/* ── Lightbox meta: dos columnas ── */
 .lightbox-meta {
   padding: 0.9rem 0.2rem 0.3rem;
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.lightbox-meta-left {
+  flex: 1;
+  min-width: 0;
+}
+
+.lightbox-meta-right {
+  flex-shrink: 0;
+  text-align: right;
+  max-width: 52%;
 }
 
 .lightbox-meta h3 {
-  margin: 0;
+  margin: 0.15rem 0 0;
   font-family: "Cormorant Garamond", serif;
   font-size: clamp(1.6rem, 3vw, 2rem);
   font-weight: 500;
+  line-height: 1.15;
 }
 
-.lightbox-meta p {
-  margin: 0.2rem 0;
+.lightbox-meta #lightbox-category {
+  margin: 0;
   color: var(--muted);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.lightbox-meta #lightbox-details {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.lightbox-meta #lightbox-price {
+  margin: 0.5rem 0 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text);
+  letter-spacing: 0.01em;
+}
+
+@media (max-width: 500px) {
+  .lightbox-meta {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .lightbox-meta-right {
+    text-align: left;
+    max-width: 100%;
+  }
 }
 
 @keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 
 @keyframes riseIn {
-  from {
-    transform: translateY(12px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
+  from { transform: translateY(12px); opacity: 0; }
+  to   { transform: translateY(0);    opacity: 1; }
 }
 
 @media (min-width: 920px) {
