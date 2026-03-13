@@ -1,1322 +1,1192 @@
 [
   {
-    "id": "ja1",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja1.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja2",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja2.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja3",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja3.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja4",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja4.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja5",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja5.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja6",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja6.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja7",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja7.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja8",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja8.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja9",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja9.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja10",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja10.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja11",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja11.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja12",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja12.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja13",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja13.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja14",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja14.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja15",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja15.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja16",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja16.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja17",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja17.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja18",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja18.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja19",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja19.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja20",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja20.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja21",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja21.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja22",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja22.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja23",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja23.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja24",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja24.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja25",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja25.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja26",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja26.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja27",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja27.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja28",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja28.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja29",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja29.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja30",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja30.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja31",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja31.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja32",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja32.JPG"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja33",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja33.JPG"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja34",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja34.JPG"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja35",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja35.JPG"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja36",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja36.JPG"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja37",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja37.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja38",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja38.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja39",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja39.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja40",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja40.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja41",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja41.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja42",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja42.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja43",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja43.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja44",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja44.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja45",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja45.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja46",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja46.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja47",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja47.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja48",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja48.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja49",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja49.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja50",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja50.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja51",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja51.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja52",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja52.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja53",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja53.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja54",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja54.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja55",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja55.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja56",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja56.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja57",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja57.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja58",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja58.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja59",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja59.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja60",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja60.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja61",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja61.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ja62",
-    "category": "jardines",
-    "images": [
-      "assets/obras/jardines/ja62.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ju1",
-    "category": "juegos",
-    "images": [
-      "assets/obras/juegos/ju1.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ju2",
-    "category": "juegos",
-    "images": [
-      "assets/obras/juegos/ju2.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ju3",
-    "category": "juegos",
-    "images": [
-      "assets/obras/juegos/ju3.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ju4",
-    "category": "juegos",
-    "images": [
-      "assets/obras/juegos/ju4.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ju5",
-    "category": "juegos",
-    "images": [
-      "assets/obras/juegos/ju5.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ju6",
-    "category": "juegos",
-    "images": [
-      "assets/obras/juegos/ju6.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ju7",
-    "category": "juegos",
-    "images": [
-      "assets/obras/juegos/ju7.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ju8",
-    "category": "juegos",
-    "images": [
-      "assets/obras/juegos/ju8.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ju9",
-    "category": "juegos",
-    "images": [
-      "assets/obras/juegos/ju9.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ju10",
-    "category": "juegos",
-    "images": [
-      "assets/obras/juegos/ju10.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ju11",
-    "category": "juegos",
-    "images": [
-      "assets/obras/juegos/ju11.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ju12",
-    "category": "juegos",
-    "images": [
-      "assets/obras/juegos/ju12.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ju13",
-    "category": "juegos",
-    "images": [
-      "assets/obras/juegos/ju13.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ju14",
-    "category": "juegos",
-    "images": [
-      "assets/obras/juegos/ju14.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ju15",
-    "category": "juegos",
-    "images": [
-      "assets/obras/juegos/ju15.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ju16",
-    "category": "juegos",
-    "images": [
-      "assets/obras/juegos/ju16.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ju17",
-    "category": "juegos",
-    "images": [
-      "assets/obras/juegos/ju17.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ju18",
-    "category": "juegos",
-    "images": [
-      "assets/obras/juegos/ju18.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ju19",
-    "category": "juegos",
-    "images": [
-      "assets/obras/juegos/ju19.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ju20",
-    "category": "juegos",
-    "images": [
-      "assets/obras/juegos/ju20.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ju21",
-    "category": "juegos",
-    "images": [
-      "assets/obras/juegos/ju21.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ju22",
-    "category": "juegos",
-    "images": [
-      "assets/obras/juegos/ju22.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ju23",
-    "category": "juegos",
-    "images": [
-      "assets/obras/juegos/ju23.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ju24",
-    "category": "juegos",
-    "images": [
-      "assets/obras/juegos/ju24.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ju25",
-    "category": "juegos",
-    "images": [
-      "assets/obras/juegos/ju25.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ju26",
-    "category": "juegos",
-    "images": [
-      "assets/obras/juegos/ju26.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ju27",
-    "category": "juegos",
-    "images": [
-      "assets/obras/juegos/ju27.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ju28",
-    "category": "juegos",
-    "images": [
-      "assets/obras/juegos/ju28.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ju29",
-    "category": "juegos",
-    "images": [
-      "assets/obras/juegos/ju29.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ju30",
-    "category": "juegos",
-    "images": [
-      "assets/obras/juegos/ju30.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
-    "id": "ju31",
-    "category": "juegos",
-    "images": [
-      "assets/obras/juegos/ju31.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
-  },
-  {
     "id": "la1",
     "category": "lazos",
-    "images": [
-      "assets/obras/lazos/la1.jpg",
-      "assets/obras/lazos/la1a.jpg",
-      "assets/obras/lazos/la1b.jpg",
-      "assets/obras/lazos/la1c.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
+    "images": ["assets/obras/lazos/la1.jpg","assets/obras/lazos/la1a.jpg","assets/obras/lazos/la1b.jpg","assets/obras/lazos/la1c.jpg"],
+    "title": "Dónde me habitas",
+    "year": "2025",
+    "medium": "grafito, óleo y esmalte s/ tela",
+    "size": "100 x 80 cm",
+    "price": 2400
   },
   {
     "id": "la2",
     "category": "lazos",
-    "images": [
-      "assets/obras/lazos/la2.jpg",
-      "assets/obras/lazos/la2a.jpg",
-      "assets/obras/lazos/la2b.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
+    "images": ["assets/obras/lazos/la2.jpg","assets/obras/lazos/la2a.jpg","assets/obras/lazos/la2b.jpg"],
+    "title": "El abrazo de tía Vi",
+    "year": "2010",
+    "medium": "carbonilla y óleo s/ tela",
+    "size": "100 x 80 cm",
+    "price": 2600
   },
   {
     "id": "la3",
     "category": "lazos",
-    "images": [
-      "assets/obras/lazos/la3.jpg",
-      "assets/obras/lazos/la3a.jpg",
-      "assets/obras/lazos/la3b.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
+    "images": ["assets/obras/lazos/la3.jpg","assets/obras/lazos/la3a.jpg","assets/obras/lazos/la3b.jpg"],
+    "title": "Lo que ven sus ojos",
+    "year": "2025",
+    "medium": "grafito y óleo s/ tela",
+    "size": "150 x 100 cm",
+    "price": 4500
   },
   {
     "id": "la4",
     "category": "lazos",
-    "images": [
-      "assets/obras/lazos/la4.jpg",
-      "assets/obras/lazos/la4b.jpg",
-      "assets/obras/lazos/la4c.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
+    "images": ["assets/obras/lazos/la4.jpg","assets/obras/lazos/la4b.jpg","assets/obras/lazos/la4c.jpg"],
+    "title": "Pequeños sueños",
+    "year": "2007",
+    "medium": "carbonilla, óleo y mica s/ tela",
+    "size": "180 x 100 cm",
+    "price": 4200
   },
   {
     "id": "la5",
     "category": "lazos",
-    "images": [
-      "assets/obras/lazos/la5.jpg",
-      "assets/obras/lazos/la5b.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
+    "images": ["assets/obras/lazos/la5.jpg","assets/obras/lazos/la5b.jpg"],
+    "title": "Shukran",
+    "year": "2020",
+    "medium": "carbonilla y óleo s/ tela",
+    "size": "200 x 150 cm",
+    "price": 4900
   },
   {
     "id": "la6",
     "category": "lazos",
-    "images": [
-      "assets/obras/lazos/la6.jpg",
-      "assets/obras/lazos/la6b.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
+    "images": ["assets/obras/lazos/la6.jpg","assets/obras/lazos/la6b.jpg"],
+    "title": "What a wonderful world",
+    "year": "2025",
+    "medium": "grafito, óleo y bordado s/ tela",
+    "size": "150 x 100 cm",
+    "price": 4800
   },
   {
     "id": "la7",
     "category": "lazos",
-    "images": [
-      "assets/obras/lazos/la7.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
+    "images": ["assets/obras/lazos/la7.jpg"],
+    "title": "Entre mis brazos",
+    "year": "2006",
+    "medium": "carbonilla, acrílico y óleo s/ tela",
+    "size": "100 x 150 cm",
+    "price": 3800
   },
   {
     "id": "la8",
     "category": "lazos",
-    "images": [
-      "assets/obras/lazos/la8.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
+    "images": ["assets/obras/lazos/la8.jpg"],
+    "title": "Globo estrella",
+    "year": "2000",
+    "medium": "carbonilla, acrílico y óleo s/ tela",
+    "size": "180 x 100 cm",
+    "price": 3700
   },
   {
     "id": "la9",
     "category": "lazos",
-    "images": [
-      "assets/obras/lazos/la9.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
+    "images": ["assets/obras/lazos/la9.jpg"],
+    "title": "Guerrera",
+    "year": "2024",
+    "medium": "óleo s/ tela",
+    "size": "30 x 25 cm",
+    "price": "no_vende"
   },
   {
     "id": "la10",
     "category": "lazos",
-    "images": [
-      "assets/obras/lazos/la10.jpg"
-    ],
-    "title": "",
+    "images": ["assets/obras/lazos/la10.jpg"],
+    "title": "La manta azul",
     "year": "",
-    "medium": "",
-    "size": ""
+    "medium": "lápices de colores s/ papel",
+    "size": "20 x 30 cm",
+    "price": "no_vende"
   },
   {
     "id": "la11",
     "category": "lazos",
-    "images": [
-      "assets/obras/lazos/la11.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
+    "images": ["assets/obras/lazos/la11.jpg"],
+    "title": "La siesta",
+    "year": "2008",
+    "medium": "óleo y mica s/ tela",
+    "size": "200 x 100 cm",
+    "price": 4100
   },
   {
     "id": "la12",
     "category": "lazos",
-    "images": [
-      "assets/obras/lazos/la12.jpg"
-    ],
-    "title": "",
+    "images": ["assets/obras/lazos/la12.jpg"],
+    "title": "Lolo",
     "year": "",
-    "medium": "",
-    "size": ""
+    "medium": "lápices de colores s/ papel",
+    "size": "30 x 20 cm",
+    "price": 400
   },
   {
     "id": "la13",
     "category": "lazos",
-    "images": [
-      "assets/obras/lazos/la13.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
+    "images": ["assets/obras/lazos/la13.jpg"],
+    "title": "Mi amiga Olivia",
+    "year": "2006",
+    "medium": "carbonilla, acrílico y óleo s/ tela",
+    "size": "120 cm de diámetro",
+    "price": 2500
   },
   {
     "id": "la14",
     "category": "lazos",
-    "images": [
-      "assets/obras/lazos/la14.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
+    "images": ["assets/obras/lazos/la14.jpg"],
+    "title": "Minnie",
+    "year": "2025",
+    "medium": "óleo y bordado s/ tela",
+    "size": "20 x 20 cm",
+    "price": 1200
   },
   {
     "id": "la15",
     "category": "lazos",
-    "images": [
-      "assets/obras/lazos/la15.png"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
+    "images": ["assets/obras/lazos/la15.png"],
+    "title": "Muchachos",
+    "year": "2023",
+    "medium": "carbonilla y óleo s/ tela",
+    "size": "200 x 150 cm",
+    "price": 4100
   },
   {
     "id": "la16",
     "category": "lazos",
-    "images": [
-      "assets/obras/lazos/la16.jpg"
-    ],
-    "title": "",
+    "images": ["assets/obras/lazos/la16.jpg"],
+    "title": "Papi",
     "year": "",
-    "medium": "",
-    "size": ""
+    "medium": "lápices de colores s/ papel",
+    "size": "20 x 20 cm",
+    "price": 500
   },
   {
     "id": "la17",
     "category": "lazos",
-    "images": [
-      "assets/obras/lazos/la17.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
+    "images": ["assets/obras/lazos/la17.jpg"],
+    "title": "Padre e hijo",
+    "year": "2006",
+    "medium": "carbonilla, acrílico y óleo s/ tela",
+    "size": "70 x 50 cm",
+    "price": 2600
   },
   {
     "id": "la18",
     "category": "lazos",
-    "images": [
-      "assets/obras/lazos/la18.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
+    "images": ["assets/obras/lazos/la18.jpg"],
+    "title": "Un cielo para Cata",
+    "year": "2023",
+    "medium": "óleo, esmalte y bordado s/ tela",
+    "size": "150 x 150 cm",
+    "price": "no_vende"
   },
   {
     "id": "la19",
     "category": "lazos",
-    "images": [
-      "assets/obras/lazos/la19.jpg"
-    ],
-    "title": "",
+    "images": ["assets/obras/lazos/la19.jpg"],
+    "title": "Sin fuerzas",
     "year": "",
-    "medium": "",
-    "size": ""
+    "medium": "lápices de colores s/ papel",
+    "size": "20 x 30 cm",
+    "price": "no_vende"
   },
   {
     "id": "la20",
     "category": "lazos",
-    "images": [
-      "assets/obras/lazos/la20.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
+    "images": ["assets/obras/lazos/la20.jpg"],
+    "title": "Stay with me",
+    "year": "2025",
+    "medium": "grafito, carbonilla, óleo y esmalte s/ tela",
+    "size": "180 x 150 cm",
+    "price": "no_vende"
   },
   {
     "id": "la21",
     "category": "lazos",
-    "images": [
-      "assets/obras/lazos/la21.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
+    "images": ["assets/obras/lazos/la21.jpg"],
+    "title": "El David",
+    "year": "2018",
+    "medium": "carbonilla y óleo s/ tela",
+    "size": "150 x 150 cm",
+    "price": 3200
   },
   {
     "id": "la22",
     "category": "lazos",
-    "images": [
-      "assets/obras/lazos/la22.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
+    "images": ["assets/obras/lazos/la22.jpg"],
+    "title": "You are my sunshine",
+    "year": "2024",
+    "medium": "óleo y bordado s/ tela",
+    "size": "40 x 25 cm",
+    "price": 1200
   },
   {
     "id": "la23",
     "category": "lazos",
-    "images": [
-      "assets/obras/lazos/la23.jpg"
-    ],
-    "title": "",
+    "images": ["assets/obras/lazos/la23.jpg"],
+    "title": "Aba",
     "year": "",
-    "medium": "",
-    "size": ""
+    "medium": "témpera s/ cartón",
+    "size": "20 x 20 cm",
+    "price": "no_vende"
   },
   {
     "id": "la24",
     "category": "lazos",
-    "images": [
-      "assets/obras/lazos/la24.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
+    "images": ["assets/obras/lazos/la24.jpg"],
+    "title": "Batboy y su pandilla",
+    "year": "2006",
+    "medium": "carbonilla, acrílico y óleo s/ tela",
+    "size": "150 cm de diámetro",
+    "price": 3300
   },
   {
     "id": "la25",
     "category": "lazos",
-    "images": [
-      "assets/obras/lazos/la25.jpg"
-    ],
-    "title": "",
-    "year": "",
-    "medium": "",
-    "size": ""
+    "images": ["assets/obras/lazos/la25.jpg"],
+    "title": "Perro Chino, Flor China",
+    "year": "2020",
+    "medium": "óleo y bordado s/ tela",
+    "size": "150 x 150 cm",
+    "price": 4400
   },
   {
     "id": "la26",
     "category": "lazos",
-    "images": [
-      "assets/obras/lazos/la26.jpg"
-    ],
+    "images": ["assets/obras/lazos/la26.jpg"],
+    "title": "Hugo",
+    "year": "2024",
+    "medium": "grafito y óleo s/ tela",
+    "size": "30 x 25 cm",
+    "price": "no_vende"
+  },
+  {
+    "id": "ju1",
+    "category": "juegos",
+    "images": ["assets/obras/juegos/ju1.jpg"],
+    "title": "Psicodelia",
+    "year": "2013",
+    "medium": "óleo s/ tela",
+    "size": "150 x 150 cm",
+    "price": "vendido_noruega"
+  },
+  {
+    "id": "ju2",
+    "category": "juegos",
+    "images": ["assets/obras/juegos/ju2.jpg"],
+    "title": "Las margaritas",
+    "year": "",
+    "medium": "óleo y bordado s/ tela",
+    "size": "15 x 15 cm",
+    "price": 600
+  },
+  {
+    "id": "ju3",
+    "category": "juegos",
+    "images": ["assets/obras/juegos/ju3.jpg"],
+    "title": "Noche de insomnio",
+    "year": "2023",
+    "medium": "óleo y bordado s/ tela",
+    "size": "30 x 20 cm",
+    "price": 1100
+  },
+  {
+    "id": "ju4",
+    "category": "juegos",
+    "images": ["assets/obras/juegos/ju4.jpg"],
+    "title": "Flowers",
+    "year": "",
+    "medium": "bordado s/ tela",
+    "size": "40 x 30 cm",
+    "price": 700
+  },
+  {
+    "id": "ju5",
+    "category": "juegos",
+    "images": ["assets/obras/juegos/ju5.jpg"],
+    "title": "Fueron solo un par de pastillas",
+    "year": "2010",
+    "medium": "óleo s/ tela",
+    "size": "150 x 150 cm",
+    "price": "vendido_noruega"
+  },
+  {
+    "id": "ju6",
+    "category": "juegos",
+    "images": ["assets/obras/juegos/ju6.jpg"],
+    "title": "Ai no tame ni · Por amor",
+    "year": "2025",
+    "medium": "óleo y bordado s/ tela",
+    "size": "70 x 50 cm",
+    "price": 1900
+  },
+  {
+    "id": "ju7",
+    "category": "juegos",
+    "images": ["assets/obras/juegos/ju7.jpg"],
+    "title": "Lipotimia",
+    "year": "2009",
+    "medium": "acrílico y óleo s/ tela",
+    "size": "100 x 100 cm",
+    "price": "no_vende"
+  },
+  {
+    "id": "ju8",
+    "category": "juegos",
+    "images": ["assets/obras/juegos/ju8.jpg"],
+    "title": "El lector",
+    "year": "",
+    "medium": "óleo s/ tela",
+    "size": "80 x 100 cm",
+    "price": 2200
+  },
+  {
+    "id": "ju9",
+    "category": "juegos",
+    "images": ["assets/obras/juegos/ju9.jpg"],
+    "title": "El mentecato",
+    "year": "2015",
+    "medium": "óleo s/ tela",
+    "size": "120 x 120 cm",
+    "price": 3100
+  },
+  {
+    "id": "ju10",
+    "category": "juegos",
+    "images": ["assets/obras/juegos/ju10.jpg"],
+    "title": "El rey",
+    "year": "",
+    "medium": "óleo s/ tela",
+    "size": "100 x 80 cm",
+    "price": 1900
+  },
+  {
+    "id": "ju11",
+    "category": "juegos",
+    "images": ["assets/obras/juegos/ju11.jpg"],
+    "title": "El secreto",
+    "year": "",
+    "medium": "óleo s/ tela",
+    "size": "40 x 20 cm",
+    "price": "vendido"
+  },
+  {
+    "id": "ju12",
+    "category": "juegos",
+    "images": ["assets/obras/juegos/ju12.jpg"],
+    "title": "En las buenas y en las malas",
+    "year": "",
+    "medium": "acrílico y óleo s/ tela",
+    "size": "47 x 32 cm",
+    "price": 900
+  },
+  {
+    "id": "ju13",
+    "category": "juegos",
+    "images": ["assets/obras/juegos/ju13.jpg"],
+    "title": "Fiesta loca",
+    "year": "2014",
+    "medium": "óleo s/ tela",
+    "size": "80 x 60 cm",
+    "price": 1700
+  },
+  {
+    "id": "ju14",
+    "category": "juegos",
+    "images": ["assets/obras/juegos/ju14.jpg"],
+    "title": "Duelo de titanes",
+    "year": "2018",
+    "medium": "óleo s/ tela",
+    "size": "150 x 150 cm",
+    "price": 3200
+  },
+  {
+    "id": "ju15",
+    "category": "juegos",
+    "images": ["assets/obras/juegos/ju15.jpg"],
+    "title": "Watashi wa itsumo amata",
+    "year": "2025",
+    "medium": "óleo y bordado s/ tela",
+    "size": "70 x 50 cm",
+    "price": 900
+  },
+  {
+    "id": "ju16",
+    "category": "juegos",
+    "images": ["assets/obras/juegos/ju16.jpg"],
+    "title": "Hidden",
+    "year": "",
+    "medium": "óleo s/ tela",
+    "size": "120 x 40 cm",
+    "price": "vendido_noruega"
+  },
+  {
+    "id": "ju17",
+    "category": "juegos",
+    "images": ["assets/obras/juegos/ju17.jpg"],
+    "title": "La 12",
+    "year": "2012",
+    "medium": "óleo s/ tela",
+    "size": "150 x 150 cm",
+    "price": 3200
+  },
+  {
+    "id": "ju18",
+    "category": "juegos",
+    "images": ["assets/obras/juegos/ju18.jpg"],
+    "title": "Comete esta zanahoria",
+    "year": "2017",
+    "medium": "acrílico y óleo s/ tela",
+    "size": "150 x 150 cm",
+    "price": 3300
+  },
+  {
+    "id": "ju19",
+    "category": "juegos",
+    "images": ["assets/obras/juegos/ju19.jpg"],
+    "title": "El camino",
+    "year": "2019",
+    "medium": "óleo s/ tela",
+    "size": "93 x 120 cm",
+    "price": 2900
+  },
+  {
+    "id": "ju20",
+    "category": "juegos",
+    "images": ["assets/obras/juegos/ju20.jpg"],
+    "title": "Los hermanos Cohen",
+    "year": "",
+    "medium": "acrílico y óleo s/ tela",
+    "size": "100 x 80 cm",
+    "price": "vendido"
+  },
+  {
+    "id": "ju21",
+    "category": "juegos",
+    "images": ["assets/obras/juegos/ju21.jpg"],
+    "title": "Mejores amigos",
+    "year": "",
+    "medium": "óleo y mica s/ tela",
+    "size": "150 x 100 cm",
+    "price": 1900
+  },
+  {
+    "id": "ju22",
+    "category": "juegos",
+    "images": ["assets/obras/juegos/ju22.jpg"],
+    "title": "Ménage à trois",
+    "year": "2008",
+    "medium": "acrílico y óleo s/ tela",
+    "size": "150 cm de diámetro",
+    "price": 3400
+  },
+  {
+    "id": "ju23",
+    "category": "juegos",
+    "images": ["assets/obras/juegos/ju23.jpg"],
+    "title": "Declaración de amor",
+    "year": "",
+    "medium": "óleo s/ tela",
+    "size": "18 x 24 cm",
+    "price": "no_vende"
+  },
+  {
+    "id": "ju24",
+    "category": "juegos",
+    "images": ["assets/obras/juegos/ju24.jpg"],
+    "title": "Warriors",
+    "year": "2018",
+    "medium": "óleo s/ tela",
+    "size": "150 x 150 cm",
+    "price": 2600
+  },
+  {
+    "id": "ju25",
+    "category": "juegos",
+    "images": ["assets/obras/juegos/ju25.jpg"],
+    "title": "Qué noche la de anoche",
+    "year": "2004",
+    "medium": "óleo y bordado s/ tela",
+    "size": "30 x 20 cm",
+    "price": "vendido"
+  },
+  {
+    "id": "ju26",
+    "category": "juegos",
+    "images": ["assets/obras/juegos/ju26.jpg"],
+    "title": "Severa reprimenda",
+    "year": "2012",
+    "medium": "óleo s/ tela",
+    "size": "80 x 80 cm",
+    "price": 1900
+  },
+  {
+    "id": "ju27",
+    "category": "juegos",
+    "images": ["assets/obras/juegos/ju27.jpg"],
+    "title": "Slackline",
+    "year": "",
+    "medium": "óleo y bordado s/ tela",
+    "size": "20 x 40 cm",
+    "price": 800
+  },
+  {
+    "id": "ju28",
+    "category": "juegos",
+    "images": ["assets/obras/juegos/ju28.jpg"],
+    "title": "The dancer",
+    "year": "",
+    "medium": "óleo s/ tela",
+    "size": "150 x 50 cm",
+    "price": 1200
+  },
+  {
+    "id": "ju29",
+    "category": "juegos",
+    "images": ["assets/obras/juegos/ju29.jpg"],
+    "title": "The marriage",
+    "year": "2021",
+    "medium": "óleo y esmalte s/ tela",
+    "size": "80 x 80 cm",
+    "price": 2400
+  },
+  {
+    "id": "ju30",
+    "category": "juegos",
+    "images": ["assets/obras/juegos/ju30.jpg"],
+    "title": "Crónica de una trampa anunciada",
+    "year": "2018",
+    "medium": "óleo y bordado s/ tela",
+    "size": "60 x 40 cm",
+    "price": 1200
+  },
+  {
+    "id": "ju31",
+    "category": "juegos",
+    "images": ["assets/obras/juegos/ju31.jpg"],
+    "title": "Cucharita",
+    "year": "2007",
+    "medium": "acrílico y óleo s/ tela",
+    "size": "120 cm de diámetro",
+    "price": 3100
+  },
+  {
+    "id": "ja1",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja1.jpg"],
     "title": "",
     "year": "",
     "medium": "",
-    "size": ""
+    "size": "",
+    "price": 1100
+  },
+  {
+    "id": "ja2",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja2.jpg"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": 600
+  },
+  {
+    "id": "ja3",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja3.jpg"],
+    "title": "Compartiendo un día de sol",
+    "year": "2026",
+    "medium": "acuarela s/ papel",
+    "size": "28 x 21 cm",
+    "price": 400
+  },
+  {
+    "id": "ja4",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja4.jpg"],
+    "title": "Sinfonía de color",
+    "year": "",
+    "medium": "óleo con espátula s/ tela",
+    "size": "44 x 59 cm",
+    "price": 600
+  },
+  {
+    "id": "ja5",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja5.jpg"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": "vendido"
+  },
+  {
+    "id": "ja6",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja6.jpg"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": "vendido"
+  },
+  {
+    "id": "ja7",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja7.jpg"],
+    "title": "Cae la noche",
+    "year": "",
+    "medium": "óleo con espátula s/ tela",
+    "size": "15 x 15 cm",
+    "price": 1300
+  },
+  {
+    "id": "ja8",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja8.jpg"],
+    "title": "Hermanas de la vida",
+    "year": "",
+    "medium": "óleo con espátula s/ tela",
+    "size": "24 x 18 cm",
+    "price": 600
+  },
+  {
+    "id": "ja9",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja9.jpg"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": 400
+  },
+  {
+    "id": "ja10",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja10.jpg"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": 600
+  },
+  {
+    "id": "ja11",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja11.jpg"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": 400
+  },
+  {
+    "id": "ja12",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja12.jpg"],
+    "title": "Lago Fontana",
+    "year": "",
+    "medium": "óleo con espátula s/ tela",
+    "size": "40 x 50 cm",
+    "price": 1500
+  },
+  {
+    "id": "ja13",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja13.jpg"],
+    "title": "Anochece en Fuego",
+    "year": "",
+    "medium": "óleo con espátula s/ tela",
+    "size": "40 x 50 cm",
+    "price": 500
+  },
+  {
+    "id": "ja14",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja14.jpg"],
+    "title": "Por siempre",
+    "year": "",
+    "medium": "óleo con espátula s/ tela",
+    "size": "20 x 47 cm",
+    "price": 1200
+  },
+  {
+    "id": "ja15",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja15.jpg"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": 500
+  },
+  {
+    "id": "ja16",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja16.jpg"],
+    "title": "Noche en el campo",
+    "year": "1998",
+    "medium": "limadura de bronce y óleo s/ madera",
+    "size": "15 x 6 cm",
+    "price": 100
+  },
+  {
+    "id": "ja17",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja17.jpg"],
+    "title": "Brisas de Mar del Sur",
+    "year": "1998",
+    "medium": "madera, caracoles, arena y óleo s/ tela",
+    "size": "29 x 91 cm",
+    "price": 700
+  },
+  {
+    "id": "ja18",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja18.jpg"],
+    "title": "Glaciar Perito Moreno",
+    "year": "",
+    "medium": "óleo con espátula s/ tela",
+    "size": "30 x 50 cm",
+    "price": 1600
+  },
+  {
+    "id": "ja19",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja19.jpg"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": 600
+  },
+  {
+    "id": "ja20",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja20.jpg"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": 400
+  },
+  {
+    "id": "ja21",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja21.jpg"],
+    "title": "Casita de Campo",
+    "year": "1998",
+    "medium": "tela, cordón, metal y óleo s/ madera",
+    "size": "9 x 7 cm",
+    "price": 100
+  },
+  {
+    "id": "ja22",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja22.jpg"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": "vendido"
+  },
+  {
+    "id": "ja23",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja23.jpg"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": 300
+  },
+  {
+    "id": "ja24",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja24.jpg"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": "vendido"
+  },
+  {
+    "id": "ja25",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja25.jpg"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": "vendido"
+  },
+  {
+    "id": "ja26",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja26.jpg"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": "vendido"
+  },
+  {
+    "id": "ja27",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja27.jpg"],
+    "title": "Campo · Camino · Hogar",
+    "year": "1998",
+    "medium": "arena, cordón, piedras y óleo s/ cartón",
+    "size": "54 x 30 cm (3 obras)",
+    "price": 300
+  },
+  {
+    "id": "ja28",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja28.jpg"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": "vendido"
+  },
+  {
+    "id": "ja29",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja29.jpg"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": "vendido"
+  },
+  {
+    "id": "ja30",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja30.jpg"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": "vendido"
+  },
+  {
+    "id": "ja31",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja31.jpg"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": "vendido"
+  },
+  {
+    "id": "ja32",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja32.JPG"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": "vendido"
+  },
+  {
+    "id": "ja33",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja33.JPG"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": "vendido"
+  },
+  {
+    "id": "ja34",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja34.JPG"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": "vendido"
+  },
+  {
+    "id": "ja35",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja35.JPG"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": "vendido"
+  },
+  {
+    "id": "ja36",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja36.JPG"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": "vendido"
+  },
+  {
+    "id": "ja37",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja37.jpg"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": "vendido"
+  },
+  {
+    "id": "ja38",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja38.jpg"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": "vendido"
+  },
+  {
+    "id": "ja39",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja39.jpg"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": "vendido"
+  },
+  {
+    "id": "ja40",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja40.jpg"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": 600
+  },
+  {
+    "id": "ja41",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja41.jpg"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": "vendido"
+  },
+  {
+    "id": "ja42",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja42.jpg"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": "vendido"
+  },
+  {
+    "id": "ja43",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja43.jpg"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": "vendido"
+  },
+  {
+    "id": "ja44",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja44.jpg"],
+    "title": "El camino",
+    "year": "1998",
+    "medium": "bronce, madera, arena y óleo s/ madera",
+    "size": "13 x 13 cm",
+    "price": 300
+  },
+  {
+    "id": "ja45",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja45.jpg"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": "vendido"
+  },
+  {
+    "id": "ja46",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja46.jpg"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": "vendido"
+  },
+  {
+    "id": "ja47",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja47.jpg"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": "vendido"
+  },
+  {
+    "id": "ja48",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja48.jpg"],
+    "title": "Acantilados",
+    "year": "1998",
+    "medium": "piedra, cordón, tela, metal y óleo s/ cartón",
+    "size": "14 x 11 cm",
+    "price": 300
+  },
+  {
+    "id": "ja49",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja49.jpg"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": 1600
+  },
+  {
+    "id": "ja50",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja50.jpg"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": 1500
+  },
+  {
+    "id": "ja51",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja51.jpg"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": 1300
+  },
+  {
+    "id": "ja52",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja52.jpg"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": 1400
+  },
+  {
+    "id": "ja53",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja53.jpg"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": "vendido"
+  },
+  {
+    "id": "ja54",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja54.jpg"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": "vendido"
+  },
+  {
+    "id": "ja55",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja55.jpg"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": "vendido"
+  },
+  {
+    "id": "ja56",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja56.jpg"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": 1500
+  },
+  {
+    "id": "ja57",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja57.jpg"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": "vendido"
+  },
+  {
+    "id": "ja58",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja58.jpg"],
+    "title": "",
+    "year": "",
+    "medium": "",
+    "size": "",
+    "price": 500
+  },
+  {
+    "id": "ja59",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja59.jpg"],
+    "title": "Atardecer en Entre Ríos",
+    "year": "",
+    "medium": "óleo con espátula s/ madera",
+    "size": "22 x 29,5 cm",
+    "price": 900
+  },
+  {
+    "id": "ja60",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja60.jpg"],
+    "title": "Tarde gris",
+    "year": "",
+    "medium": "óleo con espátula s/ tela s/ madera",
+    "size": "12 x 15 cm",
+    "price": 200
+  },
+  {
+    "id": "ja61",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja61.jpg"],
+    "title": "Sola en una tarde gris",
+    "year": "",
+    "medium": "óleo con espátula s/ tela s/ madera",
+    "size": "18 x 12,5 cm",
+    "price": 200
+  },
+  {
+    "id": "ja62",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja62.jpg"],
+    "title": "Una tarde tranquila",
+    "year": "",
+    "medium": "óleo con espátula s/ tela",
+    "size": "39 x 56 cm",
+    "price": 400
   }
 ]
