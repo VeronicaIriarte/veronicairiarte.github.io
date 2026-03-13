@@ -71,6 +71,18 @@
         <div id="category-intro-text"></div>
       </section>
 
+      <div id="price-filter" class="price-filter" hidden>
+        <div class="price-filter-labels">
+          <span id="price-label-min"></span>
+          <span id="price-label-max"></span>
+        </div>
+        <div class="price-slider-track">
+          <div id="price-slider-fill" class="price-slider-fill"></div>
+          <input type="range" id="range-min" class="range-input" min="0" max="0" step="100" value="0" aria-label="Precio mínimo" />
+          <input type="range" id="range-max" class="range-input" min="0" max="0" step="100" value="0" aria-label="Precio máximo" />
+        </div>
+      </div>
+
       <section class="gallery-section" aria-labelledby="galeria-title">
         <h2 id="galeria-title">Obras</h2>
         <div id="gallery" class="gallery-grid" aria-live="polite"></div>
