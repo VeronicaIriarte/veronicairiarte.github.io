@@ -350,6 +350,16 @@
     "price": 2600
   },
   {
+    "id": "la36",
+    "category": "lazos",
+    "images": ["assets/obras/lazos/la36jpg"],
+    "title": "Estamos soñando",
+    "year": "2000",
+    "medium": "pastel y óleo sobre tela",
+    "size": "200 x 100 cm",
+    "price": 2300
+  },
+  {
     "id": "ju1",
     "category": "juegos",
     "images": ["assets/obras/juegos/ju1.jpg"],
