@@ -673,10 +673,10 @@
     "id": "ju32",
     "category": "juegos",
     "images": ["assets/obras/juegos/ju32.jpg"],
-    "title": "Autito de madera I",
-    "year": "2012",
-    "medium": "óleo sobre tela sobre madera",
-    "size": "15 cm diámetro",
+    "title": "Qué pasó?",
+    "year": "2018",
+    "medium": "acrílico y óleo sobre tela",
+    "size": "20 x 60 cm",
     "price": 700
   },
   {
@@ -783,11 +783,31 @@
     "id": "ju43",
     "category": "juegos",
     "images": ["assets/obras/juegos/ju43.jpg"],
-    "title": "Qué pasó?",
-    "year": "2018",
-    "medium": "acrílico y óleo sobre tela",
-    "size": "20 x 60 cm",
+    "title": "Traffic I",
+    "year": "2012",
+    "medium": "óleo sobre tela sobre madera",
+    "size": "15 cm diámetro",
     "price": 700
+  },
+  {
+    "id": "ju44",
+    "category": "juegos",
+    "images": ["assets/obras/juegos/ju44.jpg"],
+    "title": "Traffic II",
+    "year": "2008",
+    "medium": "acrílico y óleo sobre madera",
+    "size": "15 cm diámetro",
+    "price": 150
+  },
+  {
+    "id": "ju45",
+    "category": "juegos",
+    "images": ["assets/obras/juegos/ju45.jpg"],
+    "title": "Traffic III",
+    "year": "2008",
+    "medium": "acrílico y óleo sobre madera",
+    "size": "15 cm diámetro",
+    "price": 150
   },
   {
     "id": "ja1",
