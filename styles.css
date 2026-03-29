@@ -68,7 +68,7 @@ body {
   border: 1px solid var(--line);
   background: transparent;
   color: var(--text);
-  padding: 0.45rem 0.72rem;
+  padding: 0.45rem 0.55rem;
   border-radius: 999px;
   cursor: pointer;
   font: inherit;
