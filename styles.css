@@ -242,6 +242,7 @@ main {
 .artwork-card[data-id="ju38"] img { object-position: center 68%; }
 .artwork-card[data-id="ju43"] img { object-position: 22% center; }
 .artwork-card[data-id="ja16"] img { object-position: center 58%; }
+.artwork-card[data-id="ja71"] img { object-position: 20% center; }
 
 /* Ajustes de encuadre por obra (solo miniatura) */
 .artwork-card[data-id="la4"] img  { object-position: center 20%; }
