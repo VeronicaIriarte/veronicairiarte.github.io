@@ -1552,12 +1552,12 @@
   {
     "id": "ja75",
     "category": "jardines",
-    "images": ["assets/obras/jardines/ja75.jpg"],
-    "title": "Movimientos II",
-    "year": "1999",
-    "medium": "óleo sobre tela",
-    "size": "20 x 60 cm",
-    "price": 500
+    "images": ["assets/obras/jardines/ja75.jpg","assets/obras/jardines/ja75a.jpg"],
+    "title": "Soledad",
+    "year": "2011",
+    "medium": "arena, palos, hilos, piedra, óleo sobre tela",
+    "size": "18 x 18 cm",
+    "price": 320
   },
   {
     "id": "ja76",
@@ -1802,22 +1802,22 @@
   {
     "id": "ja100",
     "category": "jardines",
-    "images": ["assets/obras/jardines/ja100.jpg"],
-    "title": "Movimientos I",
-    "year": "1999",
-    "medium": "óleo con espátula sobre tela",
-    "size": "20 x 60 cm",
-    "price": 550
+    "images": ["assets/obras/jardines/ja100.jpg","assets/obras/jardines/ja100a.jpg"],
+    "title": "Tarde de ensueño",
+    "year": "1998",
+    "medium": "óleo sobre madera",
+    "size": "40 x 50 cm",
+    "price": 800
   },
   {
     "id": "ja101",
     "category": "jardines",
     "images": ["assets/obras/jardines/ja101.jpg"],
-    "title": "Movimientos II",
-    "year": "1999",
-    "medium": "óleo con espátula sobre tela",
-    "size": "20 x 60 cm",
-    "price": 550
+    "title": "Transfiguración",
+    "year": "1998",
+    "medium": "metal, bronce, arena y óleo sobre tela",
+    "size": "15 x 17 cm",
+    "price": 250
   },
   {
     "id": "ja102",
@@ -1852,31 +1852,31 @@
   {
     "id": "ja105",
     "category": "jardines",
-    "images": ["assets/obras/jardines/ja105.jpg","assets/obras/jardines/ja105a.jpg"],
-    "title": "Soledad",
-    "year": "2011",
-    "medium": "arena, palos, hilos, piedra, óleo sobre tela",
-    "size": "18 x 18 cm",
-    "price": 320
+    "images": ["assets/obras/jardines/ja105.jpg"],
+    "title": "Movimientos I",
+    "year": "1999",
+    "medium": "óleo sobre tela",
+    "size": "20 x 60 cm",
+    "price": 500
   },
   {
     "id": "ja106",
     "category": "jardines",
-    "images": ["assets/obras/jardines/ja106.jpg","assets/obras/jardines/ja106a.jpg"],
-    "title": "Tarde de ensueño",
-    "year": "1998",
-    "medium": "óleo sobre madera",
-    "size": "40 x 50 cm",
-    "price": 800
+    "images": ["assets/obras/jardines/ja106.jpg"],
+    "title": "Movimientos II",
+    "year": "1999",
+    "medium": "óleo con espátula sobre tela",
+    "size": "20 x 60 cm",
+    "price": 550
   },
   {
     "id": "ja107",
     "category": "jardines",
     "images": ["assets/obras/jardines/ja107.jpg"],
-    "title": "Transfiguración",
-    "year": "1998",
-    "medium": "metal, bronce, arena y óleo sobre tela",
-    "size": "15 x 17 cm",
-    "price": 250
+    "title": "Movimientos III",
+    "year": "1999",
+    "medium": "óleo con espátula sobre tela",
+    "size": "20 x 60 cm",
+    "price": 550
   }
 ]
