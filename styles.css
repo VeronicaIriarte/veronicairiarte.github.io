@@ -231,6 +231,18 @@ main {
   object-position: center 12%;
 }
 
+.artwork-card[data-id="la3"] img  { object-position: center 15%; }
+.artwork-card[data-id="la22"] img { object-position: center 20%; }
+.artwork-card[data-id="ju11"] img { object-position: center 60%; }
+.artwork-card[data-id="ju19"] img { object-position: 58% center; }
+.artwork-card[data-id="ju24"] img { object-position: 42% center; }
+.artwork-card[data-id="ju27"] img { object-position: 40% center; }
+.artwork-card[data-id="ju28"] img { object-position: center 40%; }
+.artwork-card[data-id="ju37"] img { object-position: center 58%; }
+.artwork-card[data-id="ju38"] img { object-position: center 68%; }
+.artwork-card[data-id="ju43"] img { object-position: 22% center; }
+.artwork-card[data-id="ja16"] img { object-position: center 58%; }
+
 /* Ajustes de encuadre por obra (solo miniatura) */
 .artwork-card[data-id="la4"] img  { object-position: center 20%; }
 .artwork-card[data-id="la7"] img  { object-position: 65% center; }
