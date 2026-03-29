@@ -22,7 +22,7 @@ const labelMax      = document.getElementById('price-label-max');
 
 const CATEGORY_INTROS = {
   jardines: {
-    title: 'Serie: Jardines y Paisajes',
+    title: 'Serie: Donde Respiro',
     paragraphs: [
       'Esta serie forma parte de una práctica que comenzó hace más de treinta años y que he sostenido de manera constante, en paralelo al desarrollo del resto de mi obra. Pintar paisajes del natural no ha sido un episodio aislado dentro de mi producción, sino una línea profunda y persistente de investigación, una forma de volver siempre a la mirada directa y a la experiencia inmediata.',
       'Trabajo situándome físicamente frente al paisaje, entregándome a la observación atenta del color, de la luz y de las transformaciones del instante. Pintar así es, para mí, una práctica profundamente espiritual: implica presencia, silencio y una forma de escucha visual. La pintura se convierte en un registro del momento antes de que cambie, antes de que la luz se desplace o el clima se transforme.',
@@ -32,9 +32,9 @@ const CATEGORY_INTROS = {
     ],
   },
   juegos: {
-    title: 'Serie: Juegos e Historias',
+    title: 'Serie: Entre Juegos',
     paragraphs: [
-      'La serie Juegos me acompañó durante muchos años. Nació a partir del nacimiento de mis hijos, un acontecimiento que transformó mi vida y mi mirada. Observarlos jugar, crear mundos propios, despertó en mí la necesidad de detener esos preciados instantes, detener el tiempo.',
+      'La serie de Juegos me acompañó durante muchos años. Nació a partir del nacimiento de mis hijos, un acontecimiento que transformó mi vida y mi mirada. Observarlos jugar, crear mundos propios, despertó en mí la necesidad de detener esos preciados instantes, detener el tiempo.',
       'Los juguetes fueron tomando vida propia y narrando pequeñas historias. Obra de gran tamaño donde estos personajes tienen entidad, presencia y vida. Los juguetes funcionan como una representación de nosotros mismos, superando la distinción sujeto-objeto. Ellos se enamoran, sufren, ríen volviéndose espejos emocionales.',
       'Los fondos que en un comienzo eran planos, casi silenciosos, gradualmente comenzaron a poblarse de líneas, rayas, círculos, unos dentro de otros. Se volvieron más complejos, más vibrantes, acompañando la intensidad emocional de los personajes. Esa sobrecarga visual dialoga con la energía del juego y con la expansión imaginativa propia de la infancia.',
       'El color, como en toda mi obra, es fuerte e intenso. Las texturas, trabajadas con minuciosidad, buscan generar una presencia casi tangible.',
@@ -42,7 +42,7 @@ const CATEGORY_INTROS = {
     ],
   },
   lazos: {
-    title: 'Serie: Lazos y Familia',
+    title: 'Serie: Los Míos',
     paragraphs: [
       'Mis afectos son mi vida y la esencia de mi obra, todo entrelazado en una única necesidad: hablar de ese mundo donde los vínculos se encadenan y, a veces, nos atraviesan. En mi trabajo exploro la amistad, el amor, la felicidad y, sobre todo, el regalo de ser madre. Reflexiono sobre el paso del tiempo como una construcción mental que nos permite recordar el pasado e imaginar el futuro, pero donde lo único que realmente existe es el presente. Esta dualidad entre lo íntimo y lo universal capta la esencia de lo humano y da forma a mi propuesta artística.',
       'Cada trazo que realizo al dibujar es como una caricia, es sentir una fuerte intensidad en el aquí y ahora, a esa persona en lo más profundo de su ser. Cada pincelada, pensada, pausada, se convierte en un acto de meditación. Mi mente se sumerge en un estado de calma, donde el ruido exterior se disipa y solo queda el momento presente. Preparar el color, elegir su matiz, pensar la paleta… cada paso tiene una relación directa con una sensación muy profunda, algo instintivo que me lleva a develar cada obra. Ese camino difícil crea mucha ansiedad, nerviosismo, frustración, enojo, incomodidad o, por el contrario, satisfacción, bienestar, alegría.',
