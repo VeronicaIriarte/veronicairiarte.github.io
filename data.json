@@ -2,23 +2,23 @@
   {
     "id": "la1",
     "category": "lazos",
-    "images": ["assets/obras/lazos/la1.jpg","assets/obras/lazos/la1a.jpg","assets/obras/lazos/la1b.jpg","assets/obras/lazos/la1c.jpg"],
-    "title": "Donde me habitas",
+    "images": ["assets/obras/lazos/la1.jpg","assets/obras/lazos/la1b.jpg"],
+    "title": "What a wonderful world",
     "year": "2025",
-    "medium": "grafito, óleo y esmalte sobre tela",
-    "size": "100 x 80 cm",
-    "price": 2400
+    "medium": "grafito, óleo y bordado sobre tela",
+    "size": "150 x 100 cm",
+    "price": 4800
   },
   {
     "id": "la2",
     "category": "lazos",
-    "images": ["assets/obras/lazos/la2.jpg","assets/obras/lazos/la2a.jpg","assets/obras/lazos/la2b.jpg"],
-    "title": "El abrazo de tía Vi",
-    "year": "2008",
+    "images": ["assets/obras/lazos/la2.jpg","assets/obras/lazos/la2b.jpg"],
+    "title": "Shukran",
+    "year": "2020",
     "medium": "carbonilla y óleo sobre tela",
-    "size": "100 x 80 cm",
-    "price": 2600
-  },
+    "size": "200 x 150 cm",
+    "price": 4900
+  },  
   {
     "id": "la3",
     "category": "lazos",
@@ -32,7 +32,17 @@
   {
     "id": "la4",
     "category": "lazos",
-    "images": ["assets/obras/lazos/la4.jpg","assets/obras/lazos/la4b.jpg","assets/obras/lazos/la4c.jpg"],
+    "images": ["assets/obras/lazos/la4.jpg","assets/obras/lazos/la4a.jpg","assets/obras/lazos/la4b.jpg","assets/obras/lazos/la4c.jpg"],
+    "title": "Donde me habitas",
+    "year": "2025",
+    "medium": "grafito, óleo y esmalte sobre tela",
+    "size": "100 x 80 cm",
+    "price": 2400
+  },
+  {
+    "id": "la5",
+    "category": "lazos",
+    "images": ["assets/obras/lazos/la5.jpg","assets/obras/lazos/la5b.jpg","assets/obras/lazos/la5c.jpg"],
     "title": "Pequeños sueños",
     "year": "2007",
     "medium": "carbonilla, óleo y mica sobre tela",
@@ -40,24 +50,14 @@
     "price": 4200
   },
   {
-    "id": "la5",
-    "category": "lazos",
-    "images": ["assets/obras/lazos/la5.jpg","assets/obras/lazos/la5b.jpg"],
-    "title": "Shukran",
-    "year": "2020",
-    "medium": "carbonilla y óleo sobre tela",
-    "size": "200 x 150 cm",
-    "price": 4900
-  },
-  {
     "id": "la6",
     "category": "lazos",
-    "images": ["assets/obras/lazos/la6.jpg","assets/obras/lazos/la6b.jpg"],
-    "title": "What a wonderful world",
-    "year": "2025",
-    "medium": "grafito, óleo y bordado sobre tela",
-    "size": "150 x 100 cm",
-    "price": 4800
+    "images": ["assets/obras/lazos/la6.jpg","assets/obras/lazos/la6a.jpg","assets/obras/lazos/la6b.jpg"],
+    "title": "El abrazo de tía Vi",
+    "year": "2008",
+    "medium": "carbonilla y óleo sobre tela",
+    "size": "100 x 80 cm",
+    "price": 2600
   },
   {
     "id": "la7",
