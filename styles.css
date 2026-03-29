@@ -232,6 +232,7 @@ main {
 }
 
 .artwork-card[data-id="la3"] img  { object-position: center 15%; }
+.artwork-card[data-id="la5"] img { object-position: center 30%; }
 .artwork-card[data-id="la22"] img { object-position: center 20%; }
 .artwork-card[data-id="ju11"] img { object-position: center 60%; }
 .artwork-card[data-id="ju19"] img { object-position: 58% center; }
