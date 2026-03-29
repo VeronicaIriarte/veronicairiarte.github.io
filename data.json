@@ -2,7 +2,7 @@
   {
     "id": "la1",
     "category": "lazos",
-    "images": ["assets/obras/lazos/la1.jpg","assets/obras/lazos/la1b.jpg"],
+    "images": ["assets/obras/lazos/la1.jpg","assets/obras/lazos/la1a.jpg"],
     "title": "What a wonderful world",
     "year": "2025",
     "medium": "grafito, óleo y bordado sobre tela",
@@ -12,7 +12,7 @@
   {
     "id": "la2",
     "category": "lazos",
-    "images": ["assets/obras/lazos/la2.jpg","assets/obras/lazos/la2b.jpg"],
+    "images": ["assets/obras/lazos/la2.jpg","assets/obras/lazos/la2a.jpg"],
     "title": "Shukran",
     "year": "2020",
     "medium": "carbonilla y óleo sobre tela",
@@ -42,7 +42,7 @@
   {
     "id": "la5",
     "category": "lazos",
-    "images": ["assets/obras/lazos/la5.jpg","assets/obras/lazos/la5b.jpg","assets/obras/lazos/la5c.jpg"],
+    "images": ["assets/obras/lazos/la5.jpg","assets/obras/lazos/la5a.jpg","assets/obras/lazos/la5b.jpg"],
     "title": "Pequeños sueños",
     "year": "2007",
     "medium": "carbonilla, óleo y mica sobre tela",
