@@ -76,6 +76,12 @@ body {
   transition: all 0.24s ease;
 }
 
+.filter-btn.two-line {
+  white-space: normal;
+  line-height: 1.1;
+  text-align: center;
+}
+
 .filter-btn:hover,
 .filter-btn:focus-visible,
 .filter-btn.active {
