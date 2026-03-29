@@ -228,7 +228,7 @@ main {
 }
 
 .artwork-card[data-id="la9"] img {
-  filter: brightness(1.05) contrast(0.97);
+  object-position: center 12%;
 }
 
 /* Ajustes de encuadre por obra (solo miniatura) */
