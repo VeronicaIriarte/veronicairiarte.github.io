@@ -227,6 +227,10 @@ main {
   display: block;
 }
 
+.artwork-card[data-id="la9"] img {
+  filter: brightness(1.05) contrast(0.97);
+}
+
 /* Ajustes de encuadre por obra (solo miniatura) */
 .artwork-card[data-id="la4"] img  { object-position: center 20%; }
 .artwork-card[data-id="la7"] img  { object-position: 65% center; }
