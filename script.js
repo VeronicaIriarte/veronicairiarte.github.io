@@ -220,6 +220,7 @@ function setCategory(category) {
     const hasNumericPrices = initPriceFilter();
     priceFilter.hidden = !hasNumericPrices;
     categoryIntro.hidden = true;
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   } else if (category === 'all') {
     priceFilter.hidden = true;
     categoryIntro.hidden = true;
