@@ -167,7 +167,7 @@ function createArtworkCard(artwork) {
   card.setAttribute('aria-label', `Abrir obra: ${displayName}`);
 
   card.innerHTML = `
-    <img src="${artwork.id === 'la9' ? 'assets/obras/lazos/la9-thumb.jpg' : artwork.images[0]}" alt="${displayName}, ${formatCategory(artwork.category)}" loading="lazy" />
+    <img src="${artwork.images[0]}" alt="${displayName}, ${formatCategory(artwork.category)}" loading="lazy" />
     <div class="artwork-info">
       <h3>${displayName}</h3>
     </div>
