@@ -72,12 +72,12 @@
   {
     "id": "la8",
     "category": "lazos",
-    "images": ["assets/obras/lazos/la8.jpg"],
-    "title": "Globo estrella",
-    "year": "2000",
-    "medium": "carbonilla, acrílico y óleo sobre tela",
-    "size": "180 x 100 cm",
-    "price": 3700
+    "images": ["assets/obras/lazos/la8.jpg","assets/obras/lazos/la8a.jpg","assets/obras/lazos/la8b.jpg"],
+    "title": "La trama invisible",
+    "year": "2026",
+    "medium": "grafito, esmalte, y óleo sobre tela",
+    "size": "150 x 200 cm",
+    "price": 5500
   },
   {
     "id": "la9",
@@ -358,6 +358,16 @@
     "medium": "pastel y óleo sobre tela",
     "size": "200 x 100 cm",
     "price": 2300
+  },
+  {
+    "id": "la37",
+    "category": "lazos",
+    "images": ["assets/obras/lazos/la37.jpg"],
+    "title": "Globo estrella",
+    "year": "2000",
+    "medium": "carbonilla, acrílico y óleo sobre tela",
+    "size": "180 x 100 cm",
+    "price": 3700
   },
   {
     "id": "ju1",
