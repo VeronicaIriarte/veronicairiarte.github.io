@@ -167,11 +167,16 @@ function createArtworkCard(artwork) {
   card.setAttribute('aria-label', `Abrir obra: ${displayName}`);
 
   card.innerHTML = `
-    <img src="${artwork.images[0]}" alt="${displayName}, ${formatCategory(artwork.category)}" loading="lazy" />
-    <div class="artwork-info">
-      <h3>${displayName}</h3>
-    </div>
-  `;
+  <img
+    src="${artwork.images[0]}"
+    alt="${displayName}, ${formatCategory(artwork.category)}"
+    loading="lazy"
+    style="${artwork.focus === 'left' ? 'object-position: left center;' : ''}"
+  />
+  <div class="artwork-info">
+    <h3>${displayName}</h3>
+  </div>
+`;
 
   card.addEventListener('click', () => openLightbox(artwork));
 
