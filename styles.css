@@ -552,6 +552,13 @@ main {
   max-width: 58ch;
 }
 
+@media (max-width: 760px) {
+  .price-filter {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
 .price-filter-labels {
   display: flex;
   justify-content: space-between;
