@@ -537,15 +537,19 @@ main {
   max-width: none;
 }
 
+.price-filter[hidden] {
+  display: none !important;
+}
+
 .price-filter:not([hidden]) {
   display: grid;
-  grid-template-columns: minmax(240px, 360px) minmax(520px, 1fr);
-  gap: clamp(2rem, 6vw, 5rem);
+  grid-template-columns: 320px minmax(0, 1fr);
+  gap: clamp(2rem, 7vw, 6rem);
   align-items: start;
 }
 
 .price-filter-control {
-  max-width: 360px;
+  max-width: 320px;
 }
 
 .purchase-note {
@@ -553,7 +557,7 @@ main {
   color: var(--muted);
   font-size: 0.95rem;
   line-height: 1.6;
-  max-width: 82ch;
+  max-width: none;
   justify-self: end;
 }
 
