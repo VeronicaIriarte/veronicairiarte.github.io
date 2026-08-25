@@ -370,6 +370,26 @@
     "price": 3700
   },
   {
+    "id": "la38",
+    "category": "lazos",
+    "images": ["assets/obras/lazos/la38.jpg"],
+    "title": "El Protector",
+    "year": "2026",
+    "medium": "grafito, carbonilla, esmalte y óleo s/ tela",
+    "size": "200 x 100 cm",
+    "price": 4500
+  },
+  {
+    "id": "la39",
+    "category": "lazos",
+    "images": ["assets/obras/lazos/la39.jpg"],
+    "title": "Suki",
+    "year": "2024",
+    "medium": "óleo y bordado s/ tela",
+    "size": "24 x 18 cm ",
+    "price": 400
+  },
+  {
     "id": "ju1",
     "category": "juegos",
     "images": ["assets/obras/juegos/ju1.jpg"],
@@ -1888,5 +1908,55 @@
     "medium": "óleo con espátula sobre tela",
     "size": "20 x 60 cm",
     "price": 550
+  }
+  {
+    "id": "ja108",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja108.jpg"],
+    "title": "Llegando al cielo",
+    "year": "2026",
+    "medium": "acuarela s/ papel",
+    "size": "28 x 21 cm",
+    "price": 150
+  }
+  {
+    "id": "ja109",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja109.jpg"],
+    "title": "Rojitas",
+    "year": "2026",
+    "medium": "acuarela s/ papel",
+    "size": "28 x 21 cm",
+    "price": 150
+  }
+  {
+    "id": "ja110",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja110.jpg"],
+    "title": "Benditas sean las que florecen",
+    "year": "2026",
+    "medium": "grafito y óleo s/ tela",
+    "size": "100 x 80 cm",
+    "price": 1200
+  }
+  {
+    "id": "ja111",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja111.jpg"],
+    "title": "Las chicas no pedimos permiso",
+    "year": "2026",
+    "medium": "óleo y esmalte s/ tela",
+    "size": "150 x 100 cm",
+    "price": 1900
+  }
+  {
+    "id": "ja112",
+    "category": "jardines",
+    "images": ["assets/obras/jardines/ja112.jpg"],
+    "title": "Las inolvidables",
+    "year": "2026",
+    "medium": "óleo s/ tela",
+    "size": "30 x 20 cm",
+    "price": 800
   }
 ]
