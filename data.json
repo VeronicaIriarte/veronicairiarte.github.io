@@ -63,11 +63,11 @@
     "id": "la7",
     "category": "lazos",
     "images": ["assets/obras/lazos/la7.jpg"],
-    "title": "Entre mis brazos",
-    "year": "2006",
-    "medium": "carbonilla, acrílico y óleo sobre tela",
-    "size": "100 x 150 cm",
-    "price": 3800
+    "title": "El Protector",
+    "year": "2026",
+    "medium": "grafito, carbonilla, esmalte y óleo s/ tela",
+    "size": "200 x 100 cm",
+    "price": 4500
   },
   {
     "id": "la8",
@@ -373,11 +373,11 @@
     "id": "la38",
     "category": "lazos",
     "images": ["assets/obras/lazos/la38.jpg"],
-    "title": "El Protector",
-    "year": "2026",
-    "medium": "grafito, carbonilla, esmalte y óleo s/ tela",
-    "size": "200 x 100 cm",
-    "price": 4500
+    "title": "Entre mis brazos",
+    "year": "2006",
+    "medium": "carbonilla, acrílico y óleo sobre tela",
+    "size": "100 x 150 cm",
+    "price": 3800
   },
   {
     "id": "la39",
