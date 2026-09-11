@@ -244,7 +244,7 @@ main {
 .artwork-card[data-id="ja71"] img { object-position: 20% center; }
 
 /* Ajustes de encuadre por obra (solo miniatura) */
-.artwork-card[data-id="la1"] img  { object-position: 65% center; }
+.artwork-card[data-id="la1"] img  { object-position: center top; }
 .artwork-card[data-id="la4"] img  { object-position: center 20%; }
 .artwork-card[data-id="la7"] img  { object-position: 65% center; }
 .artwork-card[data-id="la10"] img { object-position: 70% center; }
