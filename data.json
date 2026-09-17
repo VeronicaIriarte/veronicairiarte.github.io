@@ -5,7 +5,7 @@
     "images": ["assets/obras/lazos/la1.jpg"],
     "title": "El Protector",
     "year": "2025",
-    "medium": "grafito, óleo y bordado sobre tela",
+    "medium": "grafito, óleo y esmalte",
     "size": "150 x 100 cm",
     "price": 4800
   },
@@ -35,7 +35,7 @@
     "images": ["assets/obras/lazos/la4.jpg","assets/obras/lazos/la4a.jpg","assets/obras/lazos/la4b.jpg","assets/obras/lazos/la4c.jpg"],
     "title": "Donde me habitas",
     "year": "2025",
-    "medium": "grafito, óleo y esmalte sobre tela",
+    "medium": "grafito, carbonilla, esmalte y óleo s/ tela",
     "size": "100 x 80 cm",
     "price": 2400
   },
@@ -65,7 +65,7 @@
     "images": ["assets/obras/lazos/la7.jpg","assets/obras/lazos/la7a.jpg"],
     "title": "What a wonderful world",
     "year": "2026",
-    "medium": "grafito, carbonilla, esmalte y óleo s/ tela",
+    "medium": "grafito, óleo y bordado sobre tela",
     "size": "200 x 100 cm",
     "price": 4500
   },
